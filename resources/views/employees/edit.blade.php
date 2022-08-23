@@ -29,7 +29,7 @@
                         <label for="name">Dirección</label>
                     </div>
                     <div class="input-field col s12">
-                        <input id="place" type="text" name="place" value="{{$provider->place}}"  class="validate">
+                        <input id="place" type="text" name="place" value="{{$employees->place}}"  class="validate">
                         <label for="name">Localidad</label>
                     </div>
                     <div class="input-field col s12">
