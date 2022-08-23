@@ -1,15 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <title>Document</title>
-</head>
-<body>
+@extends('layouts.app')
+@section('content')
 
-<h5>Listado de Productos <a href="{{ route('products.create') }}" class="btn">Crear nuevo Producto</a></h5>
+    <h5>Listado de Productos <a href="{{ route('products.create') }}" class="btn">Crear nuevo Producto</a></h5>
 
 <table>
     <thead>
@@ -42,10 +34,19 @@
             <td>{{ $product->warranty}}</td>
             <td>{{ $product->worth}}</td>
             <td>
-                <a class="waves-effect waves-light btn blue darken-1">Detalles</a>
-                <a class="waves-effect waves-light btn orange darken-4">Editar</a>
-                <a class="waves-effect waves-light btn deep-orange accent-4">Eliminar</a>
+                <form action="{{route('products.destroy',$product->id)}}" method="post" >
+                    @csrf
+                    <a href="{{route('products.edit', $product->id)}}">
+                        <button  class="waves-effect waves-light btn orange darken-4" >EDITAR</a>
+                    @method('DELETE')
+                    <button type="submit" class="waves-effect waves-light btn deep-orange accent-4" >ELIMINAR
+                    </button>
+                    <a href="{{route('products.show', $product->id)}}" class="waves-effect waves-light btn blue darken-1">Detalles</a>
 
+                    </button>
+
+
+                </form>
             </td>
         </tr>
     @endforeach
