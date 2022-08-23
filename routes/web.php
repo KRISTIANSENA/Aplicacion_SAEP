@@ -28,14 +28,6 @@ Route::get('/', function () {
 
 
 Route::resource('bills',BillsController::class);
-Route::resource('verification', StaffController::class);
-//Route::get('bills',[BillsController::class,'index'])->name('bills.index');
-//Route::get('bills/create',[BillsController::class,'create'])->name('bills.create');
-//Route::delete('bills/{id}',[BillsController::class,'destroy'])->name('bills.destroy');
-
-
-
-
 Route::resource('deliveries',DeliveriesController::class);
 Route::resource('orders',OrdersController::class);
 Route::resource('routes',RoutesController::class);
