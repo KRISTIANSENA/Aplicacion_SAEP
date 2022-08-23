@@ -1,42 +1,50 @@
 @extends('layouts.app')
 @section('content')
-    <h5>Editar Proveedor</h5>
+    <h5>Editar empleado</h5>
     <hr>
     <div class="card horizontal">
         <div class="card-stacked">
             <div class="card-content">
-                <form action="{{ route('providers.update',$provider->id) }}" method="post">
+                <form action="{{ route('employees.update',$employee->id) }}" method="post">
                     @csrf
                     @method('PUT')
                     <div class="input-field col s12">
-                        <input id="provider_name" type="text" name="provider_name" value="{{$provider->provider_name}}" class="validate" required>
-                        <label for="name">Nombre del proveedor</label>
+                        <input id=employee_name" type="text" name="employee_name" value="{{$employee->employee_name}}"  class="validate" required>
+                        <label for="name">Nombre</label>
                     </div>
                     <div class="input-field col s12">
-                        <input id="nit" type="number" name="nit" value="{{$provider->nit}}"  class="validate" required>
-                        <label for="name">Numero de NIT</label>
+                        <input id="employee_last_name" type="text" name="employee_last_name" value="{{$employee->employee_last_name}}"  class="validate">
+                        <label for="name">Apellido</label>
                     </div>
                     <div class="input-field col s12">
-                        <input id="business_type" type="text" name="business_type" value="{{$provider->business_type}}"  class="validate">
-                        <label for="name">Tipo de negocio</label>
+                        <input id="identification_type" type="text" name="identification_type" value="{{$employee->identification_type}}" class="validate" required>
+                        <label for="name">Tipo de identificacion</label>
                     </div>
                     <div class="input-field col s12">
-                        <input id="telephone" type="number" name="telephone" value="{{$provider->telephone}}" class="validate" required>
-                        <label for="name">Numero de Teléfono</label>
+                        <input id="identification_number" type="number" name="identification_number" value="{{$employee->identification_number}}"  class="validate" required>
+                        <label for="name">Numero de identificacion</label>
                     </div>
                     <div class="input-field col s12">
-                        <input id="address" type="text" name="address" value="{{$provider->address}}"  class="validate" required>
-                        <label for="name">Dirección</label>
+                        <input id="email" type="email" name="email" value="{{$employee->email}}"  class="validate">
+                        <label for="name">Correo</label>
                     </div>
                     <div class="input-field col s12">
-                        <input id="place" type="text" name="place" value="{{$employees->place}}"  class="validate">
-                        <label for="name">Localidad</label>
+                        <input id="address" type="text" name="address" value="{{$employee->address}}"  class="validate">
+                        <label for="name">Direccion</label>
                     </div>
                     <div class="input-field col s12">
-                        <input id="metod_conveyance" type="text" name="metod_conveyance" value="{{$provider->metod_conveyance}}"  class="validate">
-                        <label for="name">Método de transporte</label>
+                        <input id="charge" type="text" name="charge" value="{{$employee->charge}}"  class="validate">
+                        <label for="name">Cargo</label>
                     </div>
-                    <button class="btn dark darken-1">Terminar</button> | <a  href="{{ route('providers.index') }}">Cancelar</a>
+                    <div class="input-field col s12">
+                        <input id="date_of_birth" type="date" name="date_of_birth" value="{{$employee->date_of_birth}}"  class="validate">
+                        <label for="name">Fecha de nacimiento</label>
+                    </div>
+                    <div class="input-field col s12">
+                        <input id="phone_number" type="number" name="phone_number" value="{{$employee->phone_number}}"  class="validate">
+                        <label for="name">Telefono</label>
+                    </div>
+                    <button class="btn dark darken-1">Terminar</button> | <a  href="{{ route('employees.index') }}">Cancelar</a>
                 </form>
             </div>
         </div>

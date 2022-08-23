@@ -1,13 +1,11 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\BillsController;
 use App\Http\Controllers\DeliveriesController;
 use App\Http\Controllers\OrdersController;
 use App\Http\Controllers\RoutesController;
-use App\Http\Controllers\ShoppingesController;
+use App\Http\Controllers\Purchase_ordersController;
 use App\Http\Controllers\ProductsController;
-use App\Http\Controllers\SalesController;
 use App\Http\Controllers\EmployeesController;
 use App\Http\Controllers\ProvidersController;
 use App\Http\Controllers\CustomersController;
@@ -26,12 +24,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-
-Route::resource('bills',BillsController::class);
 Route::resource('deliveries',DeliveriesController::class);
-Route::resource('orders',OrdersController::class);
+Route::resource('purchase_orders',Purchase_ordersController::class);
 Route::resource('routes',RoutesController::class);
-Route::resource('shoppinges',ShoppingesController::class);
 Route::resource('products', ProductsController::class);
 Route::resource('sales', SalesController::class);
 Route::resource('employees', EmployeesController::class);
