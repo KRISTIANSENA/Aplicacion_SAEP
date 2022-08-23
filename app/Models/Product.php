@@ -13,13 +13,7 @@ class Product extends Model
     protected $primarykey ='id';
     protected $fillable = ['product_name',
                             'brand',
-                            'model',
-                            'state',
-                            'design_color',
-                            'Current_Quantity',
-                            'factory_date',
-                            'warranty',
-                            'worth'
+                            'model'
 
     ];
 }
