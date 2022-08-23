@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('content')
-    <h5>Crear nuevo producto</h5>
+    <h5>Crear nuevo ruta </h5>
     <hr>
     <div class="card horizontal">
         <div class="card-stacked">
