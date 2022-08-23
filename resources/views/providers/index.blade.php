@@ -34,21 +34,18 @@
                 @csrf
                 <a href="{{route('providers.edit', $provider->id)}}">
                     <button  class="waves-effect waves-light btn orange darken-4" >EDITAR</a>
-                @method('DELETE')
+
                 <button type="submit" class="waves-effect waves-light btn deep-orange accent-4" >ELIMINAR
+                    @method('DELETE')
                 </button>
                  <a href="{{route('providers.show', $provider->id)}}" class="waves-effect waves-light btn blue darken-1">Detalles</a>
 
-
-
-
-            </form>
-
-
+</button>
             </form>
 
 
         </td>
+
     </tr>
     @endforeach
     </tbody>

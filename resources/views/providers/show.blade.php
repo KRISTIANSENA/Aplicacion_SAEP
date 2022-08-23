@@ -3,7 +3,7 @@
 
 
     <div class="container">
-        <h5>DETALLES {{$provider->provider_name}} </h5>
+        <h5>DETALLES {{$provider->name}} </h5>
         <table>
             <thead>
             <tr>
