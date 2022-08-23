@@ -30,19 +30,23 @@
         <td>{{$provider->place}}</td>
         <td>{{$provider->metod_conveyance}}</td>
         <td>
-        <form action="{{route('providers.destroy',$provider->id)}}" method="post" >
-                        @csrf
-                        <a href="{{route('providers.edit', $provider->id)}}">
-                        <button  class="waves-effect waves-light btn orange darken-4" >EDITAR</a>
-                        @method('DELETE')
-                        <button type="submit" class="waves-effect waves-light btn deep-orange accent-4" >ELIMINAR
-                        </button>
-                        <a class="waves-effect waves-light btn blue darken-1">Detalles</a>
+            <form action="{{route('providers.destroy',$provider->id)}}" method="post" >
+                @csrf
+                <a href="{{route('providers.edit', $provider->id)}}">
+                    <button  class="waves-effect waves-light btn orange darken-4" >EDITAR</a>
+                @method('DELETE')
+                <button type="submit" class="waves-effect waves-light btn deep-orange accent-4" >ELIMINAR
+                </button>
+                 <a href="{{route('providers.show', $provider->id)}}" class="waves-effect waves-light btn blue darken-1">Detalles</a>
 
-                        
-                   </form>
 
-           
+
+
+            </form>
+
+
+            </form>
+
 
         </td>
     </tr>
