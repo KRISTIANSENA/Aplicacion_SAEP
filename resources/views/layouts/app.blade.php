@@ -10,6 +10,7 @@
     <title>@yield('title')</title>
 </head>
 <body>
+<<<<<<< HEAD
 
 <!DOCTYPE html>
 <html lang="en">
@@ -1756,6 +1757,9 @@
 </html>
 
 
+=======
+    
+>>>>>>> 72a80a19c05e9821f3828e62c4a49b2796610128
 @yield('content')
 
 
