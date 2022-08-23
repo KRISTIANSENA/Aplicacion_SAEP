@@ -44,10 +44,18 @@
             <td>{{ $employee->date_of_birth}}</td>
             <td>{{ $employee->phone_number}}</td>
             <td>
-                <a class="waves-effect waves-light btn blue darken-1">Detalles</a>
-                <a class="waves-effect waves-light btn orange darken-4">Editar</a>
-                <a class="waves-effect waves-light btn deep-orange accent-4">Eliminar</a>
+                <form action="{{route('employees.destroy',$employee->id)}}" method="post" >
+                    @csrf
+                    <a href="{{route('employees.edit', $employee->id)}}">
+                        <button  class="waves-effect waves-light btn orange darken-4" >EDITAR</a>
+                    @method('DELETE')
+                    <button type="submit" class="waves-effect waves-light btn deep-orange accent-4" >ELIMINAR
 
+                    </button>
+                    <a href="{{route('employees.show', $employee->id)}}" class="waves-effect waves-light btn blue darken-1">Detalles</a>
+
+                    </button>
+                </form>
             </td>
         </tr>
     @endforeach

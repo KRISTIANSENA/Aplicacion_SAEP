@@ -1,7 +1,7 @@
 @extends('layouts.app')
 @section('content')
 
-    
+
 <h5>Listado de Entregas <a href="{{ route('deliveries.create') }}" class="btn">Crear nueva Entrega</a></h5>
 
 <table>
@@ -32,9 +32,9 @@
                         @method('DELETE')
                         <button type="submit" class="waves-effect waves-light btn deep-orange accent-4" >ELIMINAR
                         </button>
-                        <a class="waves-effect waves-light btn blue darken-1">Detalles</a>
+                <a href="{{route('deliveries.show', $delivery->id)}}" class="waves-effect waves-light btn blue darken-1">Detalles</a>
 
-                        
+                </button>
                    </form>
 
             </td>
