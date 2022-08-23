@@ -5,19 +5,15 @@
     <div class="card horizontal">
         <div class="card-stacked">
             <div class="card-content">
-                <form action="{{ route('providers.update',$provider->id) }}" method="post">
+                <form action="{{ route('employees.update',$employee->id) }}" method="post">
                     @csrf
                     @method('PUT')
                     <div class="input-field col s12">
-                        <input id="provider_name" type="text" name="provider_name" value="{{$provider->provider_name}}" class="validate" required>
-                        <label for="name">Nombre del proveedor</label>
-                    </div>
-                    <div class="input-field col s12">
-                        <input id="nit" type="number" name="nit" value="{{$provider->nit}}"  class="validate" required>
+                        <input id="nit" type="number" name="nit" value="{{$employee->employee_name}}"  class="validate" required>
                         <label for="name">Numero de NIT</label>
                     </div>
                     <div class="input-field col s12">
-                        <input id="business_type" type="text" name="business_type" value="{{$provider->business_type}}"  class="validate">
+                        <input id="business_type" type="text" name="business_type" value="{{$employee->employee_last_name}}"  class="validate">
                         <label for="name">Tipo de negocio</label>
                     </div>
                     <div class="input-field col s12">
