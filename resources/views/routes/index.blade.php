@@ -50,6 +50,4 @@
     </tbody>
 </table>
 
-
-</body>
-</html>
+@endsection
