@@ -40,7 +40,7 @@
                 </button>
                  <a href="{{route('providers.show', $provider->id)}}" class="waves-effect waves-light btn blue darken-1">Detalles</a>
 
-</button>
+                </button>
             </form>
 
 
