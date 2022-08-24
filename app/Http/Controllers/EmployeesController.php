@@ -31,7 +31,7 @@ class EmployeesController extends Controller
     // POST
     public function store(Request $request)
     {
-        $sale = sale::create(['employee_id' => $request->employee_id,
+        $employee = employee::create(['employee_id' => $request->employee_id,
                                 'user_id' => $request->user_id,
                                 'employee_name' => $request->employee_name,
                                 'employee_last_name' => $request->employee_last_name,
