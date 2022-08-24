@@ -56,6 +56,3 @@
     </tbody>
 </table>
 
-
-</body>
-</html>
