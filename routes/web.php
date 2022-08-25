@@ -9,6 +9,7 @@ use App\Http\Controllers\ProductsController;
 use App\Http\Controllers\EmployeesController;
 use App\Http\Controllers\ProvidersController;
 use App\Http\Controllers\CustomersController;
+use App\Http\Controllers\Income_productsController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -20,10 +21,7 @@ use App\Http\Controllers\CustomersController;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
+Route::get('/', function () {return view('welcome');});
 Route::resource('deliveries',DeliveriesController::class);
 Route::resource('purchase_orders',Purchase_ordersController::class);
 Route::resource('routes',RoutesController::class);
@@ -32,6 +30,9 @@ Route::resource('sales', SalesController::class);
 Route::resource('employees', EmployeesController::class);
 Route::resource('providers', ProvidersController::class);
 Route::resource('customers', CustomersController::class);
+Route::resource('income_products', Income_productsController::class);
+
+
 
 
 Route::middleware([
@@ -44,4 +45,4 @@ Route::middleware([
     })->name('dashboard');
 });
 
-Route::redirect('dashboard','/');
+Route::redirect('dashboard','login');
