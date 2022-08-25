@@ -1737,6 +1737,8 @@
 <!-- App js -->
 <script src="style/js/app.min.js"></script>
 
+fhzz
+
 
 @yield('content')
 
