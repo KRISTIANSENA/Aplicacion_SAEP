@@ -38,7 +38,7 @@
             </tbody>
         </table>
         <div class="container">
-            <a href="{{ route('employees.index') }}" class="btn">volver</a></h5>
+           <h5> <a href="{{ route('employees.index') }}" class="btn">volver</a></h5>
         </div>
     </div>
 

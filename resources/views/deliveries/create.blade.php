@@ -11,8 +11,8 @@
                     <div class="input-field col s12">
                     <select id='id_route' name='id_route'>
                         <option value="1"disabled selected>Seleccionar id de Ruta Asignada</option>
-                             @foreach($routes as $route)     
-                                <option value="{{$route->id}}">{{$route->id}}</option>
+                             @foreach($routes as $route)
+                                <option value="{{$route->id_route}}">{{$route->id_route}}</option>
                             @endforeach
                         </select>
                         <label>Id de Ruta Asignada</label>
@@ -33,7 +33,7 @@
                     </div>
 
 
-                    <button class="btn dark darken-1">Terminar Entrega</button> 
+                    <button class="btn dark darken-1">Terminar Entrega</button>
                      <a  href="{{ route('deliveries.index') }}">Cancelar</a>
                 </form>
             </div>
