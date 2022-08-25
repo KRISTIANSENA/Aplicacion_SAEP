@@ -9,6 +9,7 @@ use App\Http\Controllers\EmployeesController;
 use App\Http\Controllers\ProvidersController;
 use App\Http\Controllers\CustomersController;
 use App\Http\Controllers\Sales_invoicesController;
+use App\Http\Controllers\InventoriesController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -32,6 +33,7 @@ Route::resource('sales_invoices', Sales_invoicesController::class);
 Route::resource('employees', EmployeesController::class);
 Route::resource('providers', ProvidersController::class);
 Route::resource('customers', CustomersController::class);
+Route::resource('inventories',InventoriesController::class);
 
 
 
