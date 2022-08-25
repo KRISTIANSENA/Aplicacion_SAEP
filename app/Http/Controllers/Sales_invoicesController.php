@@ -31,7 +31,7 @@ class Sales_invoicesController extends Controller
     // POST
     public function store(Request $request)
     {
-        $sale_invoice = sale_invoice::create(['sales_invoices' => $request->sale_id,
+        $sale_invoice = sale_invoice::create(['sales_invoices' => $request->id,
             'id_employee' => $request->id_employee,
             'id_customer' => $request->id_customer,
             'id_product' => $request->id_product,

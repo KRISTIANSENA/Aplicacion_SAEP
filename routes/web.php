@@ -2,13 +2,13 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\DeliveriesController;
-use App\Http\Controllers\OrdersController;
 use App\Http\Controllers\RoutesController;
 use App\Http\Controllers\Purchase_ordersController;
 use App\Http\Controllers\ProductsController;
 use App\Http\Controllers\EmployeesController;
 use App\Http\Controllers\ProvidersController;
 use App\Http\Controllers\CustomersController;
+use App\Http\Controllers\Sales_invoicesController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -28,10 +28,11 @@ Route::resource('deliveries',DeliveriesController::class);
 Route::resource('purchase_orders',Purchase_ordersController::class);
 Route::resource('routes',RoutesController::class);
 Route::resource('products', ProductsController::class);
-Route::resource('sales', SalesController::class);
+Route::resource('sales_invoices', Sales_invoicesController::class);
 Route::resource('employees', EmployeesController::class);
 Route::resource('providers', ProvidersController::class);
 Route::resource('customers', CustomersController::class);
+
 
 
 Route::middleware([
