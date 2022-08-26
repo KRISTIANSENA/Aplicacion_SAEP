@@ -1,38 +1,40 @@
 @extends('layouts.app')
 @section('content')
 
-
-    <div class="container">
-        <h5>DETALLES {{$provider->name}} </h5>
+    <div class="container">    
+        <h5>Detalle ordenes de compra de {{$income_product->id}} </h5>
         <table>
             <thead>
-            <tr>
-                <th>Nombre del proveedor</th>
-                <th>Nit</th>
-                <th>Tipo de negocio</th>
-                <th>Telefono</th>
-                <th>Direccion</th>
-                <th>Localidad</th>
-                <th>Metodo de transporte</th>
+            
+        <tr>
+            <th>Id de producto de ingresados</th>
+            <td>{{$income_product->id}}</td>
+        </tr>
+        <tr>
+            <th>Id de orden de compra</th> 
+            <td>{{$income_product->id_purchase_order}}</td>
+        </tr>
+        <tr>
+            <th>id de producto ingresado</th>
+            <td>{{$income_product->id_product}}</td>
+        </tr>
+        <tr>
+            <th>Cantidad</th>
+            <td>{{$income_product->amount}}</td></tr>
+        <tr>
+            <th>Lote</th>
+            <td>{{$income_product->batch}}</td>
+        </tr>
+        <tr>
+            <th>Fecha de admicion</th>
+            <td>{{$income_product->date_of_admission}}</td>
+        </tr>
 
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td>{{$provider->provider_name}}</td>
-                <td>{{$provider->nit}}</td>
-                <td>{{$provider->business_type}}</td>
-                <td>{{$provider->telephone}}</td>
-                <td>{{$provider->address}}</td>
-                <td>{{$provider->place}}</td>
-                <td>{{$provider->metod_conveyance}}</td>
-
-            </tr>
-            </tbody>
         </table>
         <div class="container">
-            <a href="{{ route('providers.index') }}" class="btn">volver</a></h5>
+            <a href="{{ route('income_products.index') }}" class="btn">volver</a></h5>
         </div>
     </div>
 
 @endsection
+

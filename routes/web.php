@@ -8,6 +8,8 @@ use App\Http\Controllers\ProductsController;
 use App\Http\Controllers\EmployeesController;
 use App\Http\Controllers\ProvidersController;
 use App\Http\Controllers\CustomersController;
+use App\Http\Controllers\Income_productsController;
+use App\Http\Controllers\Output_productsController;
 use App\Http\Controllers\Sales_invoicesController;
 use App\Http\Controllers\InventoriesController;
 /*
@@ -32,6 +34,8 @@ Route::resource('products', ProductsController::class);
 Route::resource('sales_invoices', Sales_invoicesController::class);
 Route::resource('employees', EmployeesController::class);
 Route::resource('providers', ProvidersController::class);
+Route::resource('income_products', Income_productsController::class);
+Route::resource('output_products', Output_productsController::class);
 Route::resource('customers', CustomersController::class);
 Route::resource('inventories',InventoriesController::class);
 

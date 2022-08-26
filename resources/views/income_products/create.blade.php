@@ -1,41 +1,42 @@
 @extends('layouts.app')
 @section('content')
-    <h5>Crear Proveedor</h5>
+    <h5>Crear nuevo ingreso </h5>
     <hr>
     <div class="card horizontal">
         <div class="card-stacked">
             <div class="card-content">
-                <form action="{{ route('providers.store') }}" method="post">
+                <form action="{{ route('income_products.store') }}" method="post">
                     @csrf
                     <div class="input-field col s12">
-                        <input id="provider_name" type="text" name="provider_name" class="validate" required>
-                        <label for="name">Nombre del proveedor</label>
+                        <select name="id_purchase_order" id="id_purchase_order">
+                            <option value=""disabled selected>Seleccionar orden de venta.</option>
+                            @foreach($purchase_orders as $purchase_order)   
+                            <option value="{{ $purchase_order->id}}">{{$purchase_order->id}}</option>
+                                @endforeach
+                        </select>
+                        <label>Identificacion de orden de venta</label>
                     </div>
                     <div class="input-field col s12">
-                        <input id="nit" type="number" name="nit" class="validate" required>
-                        <label for="name">Numero de NIT</label>
+                    <select name="id_product" id="id_product">
+                        <option value=""disabled selected>Seleccionar nombre del producto.</option>
+                            @foreach($products as $product) 
+                                <option value="{{ $product->id}}">{{ $product->product_name}}</option>
+                            @endforeach
+                        </select>
+                        <label>Nombre del producto</label>
+                    <div class="input-field col s12">
+                        <input id="amount" type="number" name="amount"   class="validate" required>
+                        <label for="name">Monto</label>
                     </div>
                     <div class="input-field col s12">
-                        <input id="business_type" type="text" name="business_type" class="validate">
-                        <label for="name">Tipo de negocio</label>
+                        <input id="batch" type="text" name="batch"   class="validate" required>
+                        <label for="name">Lote</label>
                     </div>
                     <div class="input-field col s12">
-                        <input id="telephone" type="number" name="telephone" class="validate" required>
-                        <label for="name">Numero de Teléfono</label>
+                        <input id="date_of_admission" type="date" name="date_of_admission">
+                        <label for="name">Fecha de ingreso</label>
                     </div>
-                    <div class="input-field col s12">
-                        <input id="address" type="text" name="address" class="validate" required>
-                        <label for="name">Dirección</label>
-                    </div>
-                    <div class="input-field col s12">
-                        <input id="place" type="text" name="place" class="validate">
-                        <label for="name">Localidad</label>
-                    </div>
-                    <div class="input-field col s12">
-                        <input id="metod_conveyance" type="text" name="metod_conveyance" class="validate">
-                        <label for="name">Método de transporte</label>
-                    </div>
-                    <button class="btn dark darken-1">Registrar nuevo Proveedor</button> | <a  href="{{ route('providers.index') }}">Cancelar</a>
+                    <button class="btn dark darken-1">Terminar</button> | <a  href="{{ route('income_products.index') }}">Cancelar</a>
                 </form>
             </div>
         </div>

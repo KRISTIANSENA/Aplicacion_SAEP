@@ -7,8 +7,6 @@
             <div class="card-content">
                 <form action="{{ route('purchase_orders.store') }}" method="post">
                     @csrf
-
-
                     <div class="input-field col s12">
                         <select name="id_employee" id="id_employee">
                             <option value=""disabled selected>Seleccionar nombre del empleado.</option>

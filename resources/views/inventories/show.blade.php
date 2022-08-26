@@ -1,38 +1,47 @@
 @extends('layouts.app')
 @section('content')
 
-
-    <div class="container">
-        <h5>DETALLES {{$provider->name}} </h5>
+    <div class="container">    
+        <h5>Detalle producto de inventario {{$inventory->id}} </h5>
         <table>
             <thead>
-            <tr>
-                <th>Nombre del proveedor</th>
-                <th>Nit</th>
-                <th>Tipo de negocio</th>
-                <th>Telefono</th>
-                <th>Direccion</th>
-                <th>Localidad</th>
-                <th>Metodo de transporte</th>
-
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td>{{$provider->provider_name}}</td>
-                <td>{{$provider->nit}}</td>
-                <td>{{$provider->business_type}}</td>
-                <td>{{$provider->telephone}}</td>
-                <td>{{$provider->address}}</td>
-                <td>{{$provider->place}}</td>
-                <td>{{$provider->metod_conveyance}}</td>
-
-            </tr>
-            </tbody>
+                <tr>
+                    <th>Id de inventario</th>
+                    <td>{{$inventory->id}}</td>
+                </tr>
+                <tr>
+                    <th>Identificación de orden de venta</th>
+                    <td>{{$inventory->id_income_products}}</td>
+                </tr>
+                <tr>
+                    <th>Estado del producto</th>
+                    <td>{{$inventory->state}}</td>
+                </tr>
+                <tr>
+                    <th>Color de diseño del producto</th>
+                    <td>{{$inventory->design_color}}</td>
+                </tr>
+                <tr>
+                    <th>Cantidad actual del producto</th>
+                    <td>{{$inventory->Current_Quantity}}</td>
+                </tr>
+                <tr>
+                    <th>Fecha de fabrica del producto</th>
+                    <td>{{$inventory->factory_date}}</td>
+                </tr>
+                <tr>
+                    <th>Garantía del producto</th>
+                    <td>{{$inventory->warranty}}</td>
+                </tr>
+                <tr>
+                    <th>Valor del producto</th> 
+                    <td>{{$inventory->worth}}</td>
+                </tr>
         </table>
         <div class="container">
-            <a href="{{ route('providers.index') }}" class="btn">volver</a></h5>
+            <a href="{{ route('inventories.index') }}" class="btn">volver</a></h5>
         </div>
     </div>
 
 @endsection
+

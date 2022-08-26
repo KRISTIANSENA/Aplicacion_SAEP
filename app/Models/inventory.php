@@ -5,23 +5,21 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class inventory extends Model
+class Inventory extends Model
 {
     use HasFactory;
-
-    protected $table = 'inventory';
-    protected $primaryKey = 'id';
-    protected $fillable = ['id_product',
-        'state',
-        'design_color',
-        'current_quantity',
-        'factory_data',
-        'warrenty',
-        'worth',
-
+    protected $table = 'inventories';
+    protected $primarykey ='id';
+    protected $fillable = [ 'id_income_products',
+                            'state',
+                            'design_color',
+                            'Current_Quantity',
+                            'factory_date',
+                            'warranty',
+                            'worth'
     ];
-    public function products()
-    {
-        return $this->belongsTo('App\Models\Product','id_product');
-    }
+    public function income_products()
+{
+    return $this->belongsTo('App\Models\Income_product','id_income_products');
+}
 }

@@ -1,7 +1,8 @@
 @extends('layouts.app')
 @section('content')
 
-<h5>Listado de producto de ingresados <a href="{{ route('income_products.create') }}" class="btn">Crear nuevo Proveedor</a></h5>
+<h5>Listado de producto de ingresados <a href="{{ route('income_products.create') }}" 
+class="btn">Crear nuevo ingreso </a></h5>
 
 <table>
     <thead>
@@ -48,3 +49,4 @@
     </tbody>
     </table>
 @endsection
+

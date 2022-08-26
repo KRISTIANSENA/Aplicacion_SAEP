@@ -16,6 +16,14 @@ class Income_product extends Model
         'id_product',
         'amount',
         'batch',
-        'date_of_admission	',
+        'date_of_admission',
     ];
+    public function providers()
+{
+    return $this->belongsTo('App\Models\Purchase_order;','id_purchase_order');
+}
+public function products()
+{
+    return $this->belongsTo('App\Models\Product','id_product');
+}
 }

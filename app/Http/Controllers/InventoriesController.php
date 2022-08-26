@@ -3,9 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\inventory;
-use App\Models\Product;
-
+use App\Models\Inventory;
+use App\Models\Sale_invoice;
 
 class InventoriesController extends Controller
 {
@@ -19,8 +18,9 @@ class InventoriesController extends Controller
     // GET
     public function create()
     {
-        $products = product::all();
-        return view('inventories.create', compact('products'));
+        
+        $income_products = income_product::all();
+        return view('inventories.create', compact('income_products'));
     }
 
     //GET
@@ -34,25 +34,24 @@ class InventoriesController extends Controller
     public function store(Request $request)
     {
         $inventory = inventory::create([
-
             'id'=> $request->id,
-            'id_product'=> $request->id_product,
+            'id_sales_invoices'=> $request->id_sales_invoices,
             'state'=> $request->state,
             'design_color'=> $request->design_color,
-            'current_quantity'=> $request->current_quantity,
-            'factory_data'=> $request->factory_data,
-            'warrenty'=> $request->warrenty,
+            'Current_Quantity'=> $request->Current_Quantity,
+            'factory_date'=> $request->factory_date,
+            'warranty'=> $request->warranty,
             'worth'=> $request->worth,
         ]);
-        return redirect()->route('inventory.index')->with('success', 'inventario actualizado exitosamente');
+        return redirect()->route('inventories.index')->with('success', 'inventario actualizado exitosamente');
     }
-
+    
     // GET
     public function edit($id)
     {
         $inventory= inventory::find($id);
-        $products = product::all();
-        return view('inventories.edit', compact('inventory','products'));
+        $sales_invoices = sale_invoice::all();
+        return view('inventories.edit', compact('inventory','sales_invoices'));
     }
 
     // PUT

@@ -6,14 +6,14 @@
 <table>
     <thead>
     <tr>
-        <th> ID Ruta</th>
+        <th>ID Ruta</th>
+        <th>ID del orden de venta</th>
         <th>ID del empleado</th>
         <th>Zona asignada</th>
         <th>Cantidad de entregas</th>
-        <th>Hora de entraga </th>
+        <th>Tiempo de servio </th>
         <th>Placa del vehiculo</th>
-        <th>ID de factura</th>
-        <th>Id de entrega</th>
+        <th>Vehiculo</th>
         <th>Acciones</th>
     </tr>
     </thead>
@@ -22,13 +22,13 @@
     @foreach($routes as $route)
         <tr>
             <td>{{ $route->id}}</td>
+            <td>{{ $route->id_output_product}}</td>
             <td>{{ $route->employee_id}}</td>
             <td>{{ $route->assigned_zone}}</td>
             <td>{{ $route->quantity_deliveries}}</td>
             <td>{{ $route->service_time}}</td>
             <td>{{ $route->vehicle_license_plate}}</td>
-            <td>{{ $route->bill_id}}</td>
-            <td>{{ $route->delivery_id}}</td>
+            <td>{{ $route->vehicle}}</td>
             <td>
 
                 <form action="{{route('routes.destroy',$route->id)}}" method="post" >

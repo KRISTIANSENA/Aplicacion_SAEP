@@ -29,8 +29,8 @@
     @foreach($sales_invoices as $sale_invoice)
         <tr>
             <td>{{ $sale_invoice->id}}</td>
-            <td>{{$sale_invoice->id_employee}}</td>
-            <td>{{$sale_invoice->id_customer}}</td>
+            <td>{{ $sale_invoice->id_employee}}</td>
+            <td>{{ $sale_invoice->id_customer}}</td>
             <td>{{ $sale_invoice->id_product}}</td>
             <td>{{ $sale_invoice->detail}}</td>
             <td>{{ $sale_invoice->amount}}</td>
