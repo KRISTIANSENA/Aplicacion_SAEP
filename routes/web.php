@@ -34,7 +34,7 @@ Route::resource('employees', EmployeesController::class);
 Route::resource('providers', ProvidersController::class);
 Route::resource('customers', CustomersController::class);
 Route::resource('inventories',InventoriesController::class);
-
+Route::resource('crear_productos', create::class );
 
 
 Route::middleware([

@@ -41,39 +41,39 @@
             <p class="text-muted">Admin Head</p>
         </div>
 
-        
+
 <!--- Sidemenu -->
         <div id="sidebar-menu">
 
             <ul id="side-menu">
 
-                <li class="menu-title">Navigation</li>
+                <li class="menu-title">MENU PRINCIPAL</li>
 
                 <li>
                     <a href="#sidebarDashboards" data-bs-toggle="collapse">
                         <i class="mdi mdi-view-dashboard-outline"></i>
                         <span class="badge bg-info rounded-pill float-end">4</span>
-                        <span> Dashboards </span>
+                        <span> ACERCA DE </span>
                     </a>
                     <div class="collapse" id="sidebarDashboards">
                         <ul class="nav-second-level">
                             <li>
-                                <a href="index.html">Dashboard 1</a>
+                                <a href="index.html">Capacitaciones</a>
                             </li>
                             <li>
-                                <a href="dashboard-2.html">Dashboard 2</a>
+                                <a href="dashboard-2.html">Preguntas</a>
                             </li>
                             <li>
-                                <a href="dashboard-3.html">Dashboard 3</a>
+                                <a href="dashboard-3.html">Licencias</a>
                             </li>
                             <li>
-                                <a href="dashboard-4.html">Dashboard 4</a>
+                                <a href="dashboard-4.html">Contactenos</a>
                             </li>
                         </ul>
                     </div>
                 </li>
 
-                <li class="menu-title mt-2">Apps</li>
+                <li class="menu-title mt-2">OPCIONES</li>
 
                 <li>
                     <a href="apps-calendar.html">

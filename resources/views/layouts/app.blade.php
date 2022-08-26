@@ -10,11 +10,11 @@
     <!-- App favicon -->
     <link rel="shortcut icon" href="style/img/favicon.ico">
     <!-- Bootstrap css -->
-    <link href="style/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="style/min/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <!-- App css -->
-    <link href="style/css/app.min.css" rel="stylesheet" type="text/css" id="app-style"/>
+    <link href="style/min/app.min.css" rel="stylesheet" type="text/css" id="app-style"/>
     <!-- icons -->
-    <link href="style/css/icons.min.css" rel="stylesheet" type="text/css" />
+    <link href="style/min/icons.min.css" rel="stylesheet" type="text/css" />
     <!-- Head js -->
     <script src="style/js/head.js"></script>
 
