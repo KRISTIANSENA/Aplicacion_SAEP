@@ -7,18 +7,15 @@
             <div class="card-content">
                 <form action="{{ route('deliveries.store') }}" method="post">
                     @csrf
-
                     <div class="input-field col s12">
                     <select id='id_route' name='id_route'>
-                        <option value="1"disabled selected>Seleccionar id de Ruta Asignada</option>
+                        <option value=""disabled selected>Seleccionar id de Ruta Asignada</option>
                              @foreach($routes as $route)
-                                <option value="{{$route->id_route}}">{{$route->id_route}}</option>
+                                <option value="{{$route->id}}">{{$route->id}}</option>
                             @endforeach
                         </select>
                         <label>Id de Ruta Asignada</label>
                     </div>
-
-
                     <div class="input-field col s12">
                         <input id="estate" type="text" name="estate" class="validate" required>
                         <label for="name">Estado de la entrega</label>

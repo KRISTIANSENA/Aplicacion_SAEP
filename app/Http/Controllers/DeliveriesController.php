@@ -19,7 +19,6 @@ class DeliveriesController extends Controller
     // GET
     public function create()
     {
-      
         $routes = route::all();
         return view('deliveries.create', compact('routes'));
     }

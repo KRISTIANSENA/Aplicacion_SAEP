@@ -23,10 +23,9 @@ use App\Http\Controllers\InventoriesController;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', function () {return view('welcome');});
 
+Route::middleware(['auth:sanctum',config('jetstream.auth_session'),'verified'])->group(function () {
 Route::resource('deliveries',DeliveriesController::class);
 Route::resource('purchase_orders',Purchase_ordersController::class);
 Route::resource('routes',RoutesController::class);
@@ -38,17 +37,10 @@ Route::resource('income_products', Income_productsController::class);
 Route::resource('output_products', Output_productsController::class);
 Route::resource('customers', CustomersController::class);
 Route::resource('inventories',InventoriesController::class);
+
 Route::resource('crear_productos', create::class );
 
-
-Route::middleware([
-    'auth:sanctum',
-    config('jetstream.auth_session'),
-    'verified'
-])->group(function () {
-    Route::get('/dashboard', function () {
-        return view('dashboard');
-    })->name('dashboard');
+Route::get('/dashboard', function () {return view('dashboard');})->name('dashboard');
 });
 
-Route::redirect('dashboard','/');
+Route::redirect('dashboard','providers');

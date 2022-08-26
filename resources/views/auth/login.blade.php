@@ -2,31 +2,6 @@
 @section('content')
 
 
-    <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="utf-8" />
-    <title>Log In</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta content="A fully featured admin theme which can be used to build CRM, CMS, etc." name="description" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <!-- App favicon -->
-    <link rel="shortcut icon" href="style/img/logo.png">
-
-    <!-- Bootstrap css -->
-    <link href="styles/style/min/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <!-- App css -->
-    <link href="styles/style/min/app.min.css" rel="stylesheet" type="text/css" id="app-style"/>
-    <!-- icons -->
-    <link href="styles/style/min/icons.min.css" rel="stylesheet" type="text/css" />
-    <!-- Head js -->
-    <script src="styles/style/js/head.js"></script>
-
-</head>
-
-<body class="auth-fluid-pages pb-0">
-
 <div class="auth-fluid">
     <!--Auth fluid left content -->
     <div class="auth-fluid-form-box">
@@ -55,19 +30,18 @@
                 <p class="text-muted mb-4">Ingresa tu informacion.</p>
 
                 <!-- form -->
-                <form action="#">
+                
+                    <form action="{{ route('login') }}" method="post">
+                    @csrf
+
                     <div class="mb-3">
-                        <label for="emailaddress" class="form-label">Correo electronico</label>
-                        <input class="form-control" type="email" id="emailaddress" required="" placeholder="Ingresa tu email">
+                        <label for="email" class="form-label">Correo electronico</label>
+                        <input class="form-control" id="email" type="email" name="email" required placeholder="Ingresa tu email">
                     </div>
                     <div class="mb-3">
-                        <a href="auth-recoverpw-2.html" class="text-muted float-end"><small>Olvidaste la contraseña?</small></a>
                         <label for="password" class="form-label">Contraseña</label>
                         <div class="input-group input-group-merge">
-                            <input type="password" id="password" class="form-control" placeholder="Enter your password">
-                            <div class="input-group-text" data-password="false">
-                                <span class="password-eye"></span>
-                            </div>
+                            <input id="password" type="password" name="password" class="form-control" placeholder="Enter your password">
                         </div>
                     </div>
 
@@ -81,7 +55,7 @@
                         <button class="btn btn-primary" type="submit">Iniciar </button>
                     </div>
                     <!-- social-->
-                    <div class="text-center mt-4">
+                    <!-- <div class="text-center mt-4">
                         <p class="text-muted font-16">Iniciar con</p>
                         <ul class="social-list list-inline mt-3">
                             <li class="list-inline-item">
@@ -97,13 +71,14 @@
                                 <a href="javascript: void(0);" class="social-list-item border-secondary text-secondary"><i class="mdi mdi-github"></i></a>
                             </li>
                         </ul>
-                    </div>
+                    </div>-->
                 </form>
                 <!-- end form-->
 
                 <!-- Footer-->
                 <footer class="footer footer-alt">
-                    <p class="text-muted">No tienes una cuenta? solicitala <a href="auth-register-2.html" class="text-muted ms-1"><b> a qui</b></a></p>
+                    <p class="text-muted"> <a href="" class="text-muted float-end">
+                            <small>Olvidaste la contraseña?</small></a></p>
                 </footer>
 
             </div> <!-- end .card-body -->
@@ -126,12 +101,4 @@
 </div>
 <!-- end auth-fluid-->
 
-<!-- Vendor js -->
-<script src="styles/style/min/vendor.min.js"></script>
-
-<!-- App js -->
-<script src="styles/style/min/app.min.js"></script>
-
-</body>
-</html>
-@endsection
+@endsection                              
