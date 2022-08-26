@@ -38,7 +38,7 @@ Route::resource('income_products', Income_productsController::class);
 Route::resource('output_products', Output_productsController::class);
 Route::resource('customers', CustomersController::class);
 Route::resource('inventories',InventoriesController::class);
-
+Route::resource('crear_productos', create::class );
 
 
 Route::middleware([

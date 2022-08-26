@@ -9,21 +9,21 @@
     <meta name="author" content="" />
 
     <!-- css -->
-    <link href="stylewel/css/bootstrap.css" rel="stylesheet" />
-    <link href="stylewel/css/bootstrap-responsive.css" rel="stylesheet" />
-    <link href="stylewel/css/prettyPhoto.css" rel="stylesheet" />
+    <link href="styles/stylewel/css/bootstrap.css" rel="stylesheet" />
+    <link href="styles/stylewel/css/bootstrap-responsive.css" rel="stylesheet" />
+    <link href="styles/stylewel/css/prettyPhoto.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
-    <link href="stylewel/css/style.css" rel="stylesheet">
+    <link href="styles/stylewel/css/style.css" rel="stylesheet">
 
     <!-- Theme skin -->
-    <link id="t-colors" href="stylewel/color/default.css" rel="stylesheet" />
+    <link id="t-colors" href="styles/stylewel/color/default.css" rel="stylesheet" />
 
     <!-- Fav and touch icons -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="stylewel/ico/apple-touch-icon-144-precomposed.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="stylewel/ico/apple-touch-icon-114-precomposed.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="stylewel/ico/apple-touch-icon-72-precomposed.png" />
-    <link rel="apple-touch-icon-precomposed" href="stylewel/ico/apple-touch-icon-57-precomposed.png" />
-    <link rel="shortcut icon" href="stylewel/ico/favicon.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="styles/stylewel/ico/apple-touch-icon-144-precomposed.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="styles/stylewel/ico/apple-touch-icon-114-precomposed.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="styles/stylewel/ico/apple-touch-icon-72-precomposed.png" />
+    <link rel="apple-touch-icon-precomposed" href="styles/stylewel/ico/apple-touch-icon-57-precomposed.png" />
+    <link rel="shortcut icon" href="styles/stylewel/ico/favicon.png" />
 
 
 </head>
@@ -381,19 +381,19 @@
 <!-- javascript
   ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
-<script src="stylewel/js/jquery.js"></script>
-<script src="stylewel/js/jquery.easing.1.3.js"></script>
-<script src="stylewel/js/bootstrap.js"></script>
-<script src="stylewel/js/modernizr.custom.js"></script>
-<script src="stylewel/js/toucheffects.js"></script>
-<script src="stylewel/js/google-code-prettify/prettify.js"></script>
-<script src="stylewel/js/jquery.prettyPhoto.js"></script>
-<script src="stylewel/js/portfolio/jquery.quicksand.js"></script>
-<script src="stylewel/js/portfolio/setting.js"></script>
-<script src="stylewel/js/animate.js"></script>
+<script src="styles/stylewel/js/jquery.js"></script>
+<script src="styles/stylewel/js/jquery.easing.1.3.js"></script>
+<script src="styles/stylewel/js/bootstrap.js"></script>
+<script src="styles/stylewel/js/modernizr.custom.js"></script>
+<script src="styles/stylewel/js/toucheffects.js"></script>
+<script src="styles/stylewel/js/google-code-prettify/prettify.js"></script>
+<script src="styles/stylewel/js/jquery.prettyPhoto.js"></script>
+<script src="styles/stylewel/js/portfolio/jquery.quicksand.js"></script>
+<script src="styles/stylewel/js/portfolio/setting.js"></script>
+<script src="styles/stylewel/js/animate.js"></script>
 
 <!-- Template Custom JavaScript File -->
-<script src="stylewel/js/custom.js"></script>
+<script src="styles/stylewel/js/custom.js"></script>
 
 </body>
 
