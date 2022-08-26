@@ -15,13 +15,13 @@
     <link rel="shortcut icon" href="style/img/logo.png">
 
     <!-- Bootstrap css -->
-    <link href="style/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="styles/style/min/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <!-- App css -->
-    <link href="style/css/app.min.css" rel="stylesheet" type="text/css" id="app-style"/>
+    <link href="styles/style/min/app.min.css" rel="stylesheet" type="text/css" id="app-style"/>
     <!-- icons -->
-    <link href="style/css/icons.min.css" rel="stylesheet" type="text/css" />
+    <link href="styles/style/min/icons.min.css" rel="stylesheet" type="text/css" />
     <!-- Head js -->
-    <script src="style/js/head.js"></script>
+    <script src="styles/style/js/head.js"></script>
 
 </head>
 
@@ -127,10 +127,10 @@
 <!-- end auth-fluid-->
 
 <!-- Vendor js -->
-<script src="style/js/vendor.min.js"></script>
+<script src="styles/style/min/vendor.min.js"></script>
 
 <!-- App js -->
-<script src="style/js/app.min.js"></script>
+<script src="styles/style/min/app.min.js"></script>
 
 </body>
 </html>

@@ -110,7 +110,7 @@
                                         </ul>
                                     </li>
                                     <li>
-                                        <a href="dashboard">INICIAS SESION </a>
+                                        <a href="{{ route('login') }}" class="btn">iniciar sesion</a>
                                     </li>
                                 </ul>
                             </nav>
