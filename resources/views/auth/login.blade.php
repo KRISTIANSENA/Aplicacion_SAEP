@@ -13,24 +13,24 @@
                     <div class="auth-logo">
                         <a href="index.html" class="logo logo-dark text-center">
                                     <span class="logo-lg">
-                                        <img src="style/img/fondo.jpg" alt="" height="22">
+                                        <img src="styles/style/img/logo1.jpg" alt="" height="120">
                                     </span>
                         </a>
 
                         <a href="index.html" class="logo logo-light text-center">
                                     <span class="logo-lg">
-                                        <img src="style/img/fondo.jpg" alt="" height="22">
+                                        <img src="styles/style/img/fondo.jpg" alt="" height="22">
                                     </span>
                         </a>
                     </div>
                 </div>
 
                 <!-- title-->
-                <h4 class="mt-0">Iniciar sesion</h4>
-                <p class="text-muted mb-4">Ingresa tu informacion.</p>
+                <h4 class="mt-0">DISTRIBUIDORA PRACTIPASTA JJ SAS</h4>
+                <p class="text-muted mb-8">Ingresa tu informacion.</p>
 
                 <!-- form -->
-                
+
                     <form action="{{ route('login') }}" method="post">
                     @csrf
 
@@ -38,14 +38,14 @@
                         <label for="email" class="form-label">Correo electronico</label>
                         <input class="form-control" id="email" type="email" name="email" required placeholder="Ingresa tu email">
                     </div>
-                    <div class="mb-3">
+                    <div class="mb-4">
                         <label for="password" class="form-label">Contraseña</label>
                         <div class="input-group input-group-merge">
                             <input id="password" type="password" name="password" class="form-control" placeholder="Enter your password">
                         </div>
                     </div>
 
-                    <div class="mb-3">
+                    <div class="mb-4">
                         <div class="form-check">
                             <input type="checkbox" class="form-check-input" id="checkbox-signin">
                             <label class="form-check-label" for="checkbox-signin">Recordarme</label>
@@ -89,11 +89,11 @@
     <!-- Auth fluid right content -->
     <div class="auth-fluid-right text-center">
         <div class="auth-user-testimonial">
-            <h2 class="mb-3 text-white">I love the color!</h2>
-            <p class="lead"><i class="mdi mdi-format-quote-open"></i> I've been using your theme from the previous developer for our web app, once I knew new version is out, I immediately bought with no hesitation. Great themes, good documentation with lots of customization available and sample app that really fit our need. <i class="mdi mdi-format-quote-close"></i>
+            <h2 class="mb-3 text-white">Sirviendo con gratitud!</h2>
+            <p class="lead"><i class="mdi mdi-format-quote-open"></i>bienaventurados los que no vieron, y creyeron.  <i class="mdi mdi-format-quote-close"></i>
             </p>
             <h5 class="text-white">
-                - Fadlisaad (Ubold Admin User)
+                (Juan 20:28)
             </h5>
         </div> <!-- end auth-user-testimonial-->
     </div>
@@ -101,4 +101,4 @@
 </div>
 <!-- end auth-fluid-->
 
-@endsection                              
+@endsection

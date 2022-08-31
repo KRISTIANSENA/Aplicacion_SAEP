@@ -115,7 +115,6 @@
                                 </ul>
                             </nav>
                         </div>
-                        <!-- end navigation -->
                     </div>
                 </div>
             </div>
