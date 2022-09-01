@@ -88,7 +88,5 @@
         </div>
     </div>
 </div>
-<script src="styles/style/min/vendor.min.js"></script>
-<script src="styles/style/min/app.min.js"></script>
 </body>
 @endsection('content')

@@ -13,7 +13,7 @@
                     <div class="auth-logo">
                         <a href="index.html" class="logo logo-dark text-center">
                                     <span class="logo-lg">
-                                        <img src="styles/style/img/logo1.jpg" alt="" height="120">
+                                        <img src="styles/style/img/logo1.jpg" alt="" height="100">
                                     </span>
                         </a>
 
@@ -24,10 +24,11 @@
                         </a>
                     </div>
                 </div>
+                <BR><BR>
 
                 <!-- title-->
-                <h4 class="mt-0">DISTRIBUIDORA PRACTIPASTA JJ SAS</h4>
-                <p class="text-muted mb-8">Ingresa tu informacion.</p>
+                <h4 class="mt-0">Distribuidora Practipasta JJ SAS-nit 13820721</h4>
+                <p class="text-muted mb-12">Iniciar Sesion.</p>
 
                 <!-- form -->
 
@@ -54,8 +55,8 @@
                     <div class="text-center d-grid">
                         <button class="btn btn-primary" type="submit">Iniciar </button>
                     </div>
-                    <!-- social-->
-                    <!-- <div class="text-center mt-4">
+
+                     <div class="text-center mt-4">
                         <p class="text-muted font-16">Iniciar con</p>
                         <ul class="social-list list-inline mt-3">
                             <li class="list-inline-item">
@@ -71,14 +72,20 @@
                                 <a href="javascript: void(0);" class="social-list-item border-secondary text-secondary"><i class="mdi mdi-github"></i></a>
                             </li>
                         </ul>
-                    </div>-->
+                    </div>
+                        <p class="text-muted"> <a href="" class="text-muted float-end">
+                                <small>Olvidaste la contraseña?</small></a></p>
                 </form>
                 <!-- end form-->
 
                 <!-- Footer-->
                 <footer class="footer footer-alt">
-                    <p class="text-muted"> <a href="" class="text-muted float-end">
-                            <small>Olvidaste la contraseña?</small></a></p>
+                    <div class="span6">
+                        <div class="copyright">
+                            <p><span>&copy; Remember Inc. All right reserved</span></p>
+                        </div>
+
+                    </div>
                 </footer>
 
             </div> <!-- end .card-body -->
@@ -92,13 +99,12 @@
             <h2 class="mb-3 text-white">Sirviendo con gratitud!</h2>
             <p class="lead"><i class="mdi mdi-format-quote-open"></i>bienaventurados los que no vieron, y creyeron.  <i class="mdi mdi-format-quote-close"></i>
             </p>
-            <h5 class="text-white">
-                (Juan 20:28)
-            </h5>
+            <h5 class="text-white">(Juan 20:28)</h5>
         </div> <!-- end auth-user-testimonial-->
     </div>
     <!-- end Auth fluid right content -->
 </div>
 <!-- end auth-fluid-->
+
 
 @endsection
