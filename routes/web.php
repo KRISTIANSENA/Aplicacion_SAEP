@@ -40,6 +40,7 @@ Route::resource('inventories',InventoriesController::class);
 
 Route::resource('crear_productos', create::class );
 
+
 Route::get('/dashboard', function () {return view('dashboard');})->name('dashboard');
 });
 
