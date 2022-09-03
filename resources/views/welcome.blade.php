@@ -14,17 +14,8 @@
     <link href="styles/stylewel/css/prettyPhoto.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
     <link href="styles/stylewel/css/style.css" rel="stylesheet">
-
     <!-- Theme skin -->
     <link id="t-colors" href="styles/stylewel/color/default.css" rel="stylesheet" />
-
-    <!-- Fav and touch icons -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="styles/stylewel/ico/apple-touch-icon-144-precomposed.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="styles/stylewel/ico/apple-touch-icon-114-precomposed.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="styles/stylewel/ico/apple-touch-icon-72-precomposed.png" />
-    <link rel="apple-touch-icon-precomposed" href="styles/stylewel/ico/apple-touch-icon-57-precomposed.png" />
-    <link rel="shortcut icon" href="styles/stylewel/ico/favicon.png" />
-
 
 </head>
 
@@ -32,33 +23,7 @@
 <div id="wrapper">
     <!-- start header -->
     <header>
-        <div class="top">
-            <div class="container">
-                <div class="row">
-                    <div class="span6">
-                        <ul class="topmenu">
-                            <li><a href="#">Home</a> &#47;</li>
-                            <li><a href="#">Terms</a> &#47;</li>
-                            <li><a href="#">Privacy policy</a></li>
-                        </ul>
-                    </div>
-                    <div class="span6">
-
-                        <ul class="social-network">
-                            <li><a href="#" data-placement="bottom" title="Facebook"><i class="icon-circled icon-bglight icon-facebook"></i></a></li>
-                            <li><a href="#" data-placement="bottom" title="Twitter"><i class="icon-circled icon-bglight icon-twitter"></i></a></li>
-                            <li><a href="#" data-placement="bottom" title="Linkedin"><i class="icon-circled icon-linkedin icon-bglight"></i></a></li>
-                            <li><a href="#" data-placement="bottom" title="Pinterest"><i class="icon-circled icon-pinterest  icon-bglight"></i></a></li>
-                            <li><a href="#" data-placement="bottom" title="Google +"><i class="icon-circled icon-google-plus icon-bglight"></i></a></li>
-                        </ul>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-
-
+        <br>
             <div class="row nomargin">
                 <div class="span4">
                     <div class="logo">
@@ -145,7 +110,11 @@
                             <div class="box aligncenter">
                                 <div class="icon">
                                     <span class="badge badge-info badge-circled">1</span>
-                                    <i class="ico icon-dropbox icon-5x"></i>
+                                    <lord-icon
+                                        src="https://cdn.lordicon.com/itmmouju.json"
+                                        trigger="hover"
+                                        style="width:250px;height:250px">
+                                    </lord-icon>
                                 </div>
                                 <div class="text">
                                     <h4><strong>Nuestros productos</strong></h4>
@@ -161,7 +130,11 @@
                             <div class="box aligncenter">
                                 <div class="icon">
                                     <span class="badge badge-success badge-circled">2</span>
-                                    <i class="ico icon-bitbucket icon-5x"></i>
+                                    <lord-icon
+                                        src="https://cdn.lordicon.com/wxnxiano.json"
+                                        trigger="morph"
+                                        style="width:250px;height:250px">
+                                    </lord-icon>
                                 </div>
                                 <div class="text">
                                     <h4><strong>Resetario</strong></h4>
@@ -176,7 +149,11 @@
                             <div class="box aligncenter">
                                 <div class="icon">
                                     <span class="badge badge-warning badge-circled">3</span>
-                                    <i class="ico icon-rocket icon-5x"></i>
+                                    <lord-icon
+                                        src="https://cdn.lordicon.com/tdxypxgp.json"
+                                        trigger="hover"
+                                        style="width:250px;height:250px">
+                                    </lord-icon>
                                 </div>
                                 <div class="text">
                                     <h4><strong>Galeria</strong></h4>
@@ -191,7 +168,11 @@
                             <div class="box aligncenter">
                                 <div class="icon">
                                     <span class="badge badge-important badge-circled">4</span>
-                                    <i class="ico icon-cut icon-5x"></i>
+                                    <lord-icon
+                                        src="https://cdn.lordicon.com/nkmsrxys.json"
+                                        trigger="hover"
+                                        style="width:250px;height:250px">
+                                    </lord-icon>
                                 </div>
                                 <div class="text">
                                     <h4><strong>Promociones</strong></h4>
@@ -206,7 +187,6 @@
                 </div>
             </div>
 
-
             <div class="row">
                 <div class="span12">
                     <div class="cta-box">
@@ -220,165 +200,107 @@
                                 <div class="cta-btn">
                                     <a href="#" class="btn btn-color">LLamanos <i class="icon-caret-right"></i></a>
                                 </div>
-                            </div>
-
-                        </div>
-
-
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </section>
+                                       </div>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+               </section>
 
 
-    <section id="works">
-        <div class="container">
-            <div class="row">
-                <div class="span12">
-                    <h3>Recent works</h3>
-                    <div class="row">
+               <footer>
+                   <div class="container">
+                       <div class="row">
+                           <div class="span4">
+                               <div class="widget">
+                                   <div class="footer_logo">
+                                       <h3><a href="index.html"><lord-icon
+                                                   src="https://cdn.lordicon.com/zzcjjxew.json"
+                                                   trigger="hover"
+                                                   style="width:100px;height:100px">
+                                               </lord-icon> Direccion</a></h3>
+                                   </div>
+                                   <address>
+                                       <strong>Distribuidora Practipasta JJ SAS</strong><br>
+                                       Cra 84 No 7d 49 Valladolid  <br>
+                                       Bogota / Colombia
+                                   </address>
+                                   <p>
+                                       <i class="icon-phone"></i> (601) 456-7890 - (57) 320 246-7891 <br>
+                                       <i class="icon-envelope-alt"></i> desarrollo@saepgrup.com
+                                   </p>
+                               </div>
+                           </div>
+                           <div class="span4">
+                               <div class="widget">
+                                   <h5 class="widgetheading"><lord-icon
+                                           src="https://cdn.lordicon.com/nocovwne.json"
+                                           trigger="hover"
+                                           style="width:100px;height:100px">
+                                       </lord-icon>Nuestra pagina</h5>
+                                   <ul class="link-list">
+                                       <li><a href="#">Nuestra Compañia</a></li>
+                                       <li><a href="#">Terminos y condiciones</a></li>
+                                       <li><a href="#">Politicas de privacidad</a></li>
 
-                        <div class="grid cs-style-3">
-                            <div class="span3">
-                                <div class="item">
-                                    <figure>
-                                        <div><img src="img/dummies/works/1.jpg" alt=""></div>
-                                        <figcaption>
-                                            <h3>Portfolio name</h3>
-                                            <p>
-                                                <a href="img/dummies/works/big.png" data-pretty="prettyPhoto[gallery1]" title="Portfolio caption here"><i class="icon-zoom-in icon-circled icon-bglight icon-2x active"></i></a>
-                                                <a href="#"><i class="icon-file icon-circled icon-bglight icon-2x active"></i></a>
-                                            </p>
-                                        </figcaption>
-                                    </figure>
-                                </div>
-                            </div>
-                            <div class="span3">
-                                <div class="item">
-                                    <figure>
-                                        <div><img src="img/dummies/works/2.jpg" alt=""></div>
-                                        <figcaption>
-                                            <h3>Portfolio name</h3>
-                                            <p>
-                                                <a href="img/dummies/works/big.png" data-pretty="prettyPhoto[gallery1]" title="Portfolio caption here"><i class="icon-zoom-in icon-circled icon-bglight icon-2x active"></i></a>
-                                                <a href="#"><i class="icon-file icon-circled icon-bglight icon-2x active"></i></a>
-                                            </p>
-                                        </figcaption>
-                                    </figure>
-                                </div>
-                            </div>
-                            <div class="span3">
-                                <div class="item">
-                                    <figure>
-                                        <div><img src="img/dummies/works/3.jpg" alt=""></div>
-                                        <figcaption>
-                                            <h3>Portfolio name</h3>
-                                            <p>
-                                                <a href="img/dummies/works/big.png" data-pretty="prettyPhoto[gallery1]" title="Portfolio caption here"><i class="icon-zoom-in icon-circled icon-bglight icon-2x active"></i></a>
-                                                <a href="#"><i class="icon-file icon-circled icon-bglight icon-2x active"></i></a>
-                                            </p>
-                                        </figcaption>
-                                    </figure>
-                                </div>
-                            </div>
-                            <div class="span3">
-                                <div class="item">
-                                    <figure>
-                                        <div><img src="img/dummies/works/4.jpg" alt=""></div>
-                                        <figcaption>
-                                            <h3>Portfolio name</h3>
-                                            <p>
-                                                <a href="img/dummies/works/big.png" data-pretty="prettyPhoto[gallery1]" title="Portfolio caption here"><i class="icon-zoom-in icon-circled icon-bglight icon-2x active"></i></a>
-                                                <a href="#"><i class="icon-file icon-circled icon-bglight icon-2x active"></i></a>
-                                            </p>
-                                        </figcaption>
-                                    </figure>
-                                </div>
-                            </div>
-                        </div>
+                                   </ul>
 
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+                               </div>
+                           </div>
+                           <div class="span4">
+                               <div class="widget">
+                                   <h5 class="widgetheading"><lord-icon src="https://cdn.lordicon.com/zpxybbhl.json"
+                                           trigger="hover" style="width:100px;height:100px">
+                                       </lord-icon>Contactenos</h5>
+                                   <div class="flickr_badge">
+                                       <form action="">
+                                           <div class="col">
+                                               <input type="text" class="form-control" placeholder="Nombres Y pellidos">
+                                           </div>
+                                           <div class="col">
+                                               <input type="email" class="form-control" placeholder="Correo electronico">
+                                           </div>
+                                           <div class="col">
+                                               <input type="Number" class="form-control" placeholder="Telefono">
+                                           </div>
+                                           <button class="btn btn-primary" type="submit" >Enviar</button>
 
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="span4">
-                    <div class="widget">
-                        <div class="footer_logo">
-                            <h3><a href="index.html"><i class="icon-tint"></i> Remember</a></h3>
-                        </div>
-                        <address>
-                            <strong>Remember company Inc.</strong><br>
-                            Somestreet KW 101, Park Village W.01<br>
-                            Jakarta 13426 Indonesia
-                        </address>
-                        <p>
-                            <i class="icon-phone"></i> (123) 456-7890 - (123) 555-7891 <br>
-                            <i class="icon-envelope-alt"></i> email@domainname.com
-                        </p>
-                    </div>
-                </div>
-                <div class="span4">
-                    <div class="widget">
-                        <h5 class="widgetheading">Browse pages</h5>
-                        <ul class="link-list">
-                            <li><a href="#">Our company</a></li>
-                            <li><a href="#">Terms and conditions</a></li>
-                            <li><a href="#">Privacy policy</a></li>
-                            <li><a href="#">Press release</a></li>
-                            <li><a href="#">What we have done</a></li>
-                            <li><a href="#">Our support forum</a></li>
-                        </ul>
+                                       </form>
 
-                    </div>
-                </div>
-                <div class="span4">
-                    <div class="widget">
-                        <h5 class="widgetheading">From flickr</h5>
-                        <div class="flickr_badge">
-                            <script type="text/javascript" src="http://www.flickr.com/badge_code_v2.gne?count=8&amp;display=random&amp;size=s&amp;layout=x&amp;source=user&amp;user=34178660@N03"></script>
-                        </div>
-                        <div class="clear"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div id="sub-footer">
-            <div class="container">
-                <div class="row">
-                    <div class="span6">
-                        <div class="copyright">
-                            <p><span>&copy; Remember Inc. All right reserved</span></p>
-                        </div>
+                                   </div>
+                                   <div class="clear"></div>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+                   <div id="sub-footer">
+                       <div class="container">
+                           <div class="row">
+                               <div class="span6">
+                                   <div class="copyright">
+                                       <p><span>&copy; copy All right reserved SAEP Grup</span></p>
+                                   </div>
 
-                    </div>
+                               </div>
 
-                    <div class="span6">
-                        <div class="credits">
+                               <div class="span6">
+                                   <div class="credits">
 
-                              All the links in the footer should remain intact.
-                              You can delete the links only if you purchased the pro version.
-                              Licensing information: https://bootstrapmade.com/license/
-                              Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Remember
+                                        Grupo de desarrollo SAEP Grup 2022, since 2021 ADSI.
 
-                            Created by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-</div>
-<a href="#" class="scrollup"><i class="icon-angle-up icon-rounded icon-bglight icon-2x"></i></a>
+                                       Created by <a href="https://bootstrapmade.com/">SAEP Grup 2022</a>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+               </footer>
+           </div>
+           <a href="#" class="scrollup"><i class="icon-angle-up icon-rounded icon-bglight icon-2x"></i></a>
 
-<!-- javascript
-  ================================================== -->
+           <!-- javascript
+             ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
 <script src="styles/stylewel/js/jquery.js"></script>
 <script src="styles/stylewel/js/jquery.easing.1.3.js"></script>
@@ -393,6 +315,7 @@
 
 <!-- Template Custom JavaScript File -->
 <script src="styles/stylewel/js/custom.js"></script>
+<script src="https://cdn.lordicon.com/xdjxvujz.js"></script>
 
 </body>
 

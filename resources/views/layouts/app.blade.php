@@ -257,7 +257,7 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="pages/layout/fixed-footer.html" class="nav-link">
+                                <a href="resources/views/employees/index.blade.php" class="nav-link">
                                     <i class="far fa-circle nav-icon"></i>
                                     <p>Trabajadores</p>
                                 </a>
@@ -281,7 +281,7 @@
                         <ul class="nav nav-treeview">
                             <li class="nav-item">
                                 <a href="resources/views/products/index.blade.php" class="nav-link">
-                                    <i class="far fa-circle nav-icon"></i>
+                                    <i class="fa-light fa-person-dress nav-icon"></i>
                                     <p>Consultar producto</p>
                                 </a>
                             </li>
@@ -479,7 +479,6 @@
         </div>
     </aside>
     <div class="content-wrapper">
-        <!-- Content Header (Page header) -->
         <div class="content-header">
             <div class="container-fluid">
                 <div class="row mb-2">
@@ -507,16 +506,10 @@
     </footer>
 </div>
 <script src="styles/stylesil/plugins/jquery/jquery.min.js"></script>
-<!-- Bootstrap -->
 <script src="styles/stylesil/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
-<!-- AdminLTE -->
 <script src="styles/stylesil/dist/js/adminlte.js"></script>
-
-<!-- OPTIONAL SCRIPTS -->
 <script src="styles/stylesil/plugins/chart.js/Chart.min.js"></script>
-<!-- AdminLTE for demo purposes -->
 <script src="styles/stylesil/dist/js/demo.js"></script>
-<!-- AdminLTE dashboard demo (This is only for demo purposes) -->
 <script src="styles/stylesil/dist/js/pages/dashboard3.js"></script>
 </body>
 </html>

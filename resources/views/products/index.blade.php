@@ -1,16 +1,8 @@
-@extends('layouts.components.sidebar')
+@extends('layouts.app')
 @section()
-    <!-- ============================================================== -->
-    <!-- Start Page Content here -->
-    <!-- ============================================================== -->
-
     <div class="content-page">
         <div class="content">
-
-            <!-- Start Content-->
             <div class="container-fluid">
-
-                <!-- start page title -->
                 <div class="row">
                     <div class="col-12">
                         <div class="page-title-box">
@@ -25,8 +17,6 @@
                         </div>
                     </div>
                 </div>
-                <!-- end page title -->
-
                 <div class="row">
                     <div class="col-12">
                         <div class="card">
@@ -93,10 +83,7 @@
                                             <button type="submit" class="waves-effect waves-light btn deep-orange accent-4" >ELIMINAR
                                             </button>
                                             <a href="{{route('products.show', $product->id)}}" class="waves-effect waves-light btn blue darken-1">Detalles</a>
-
                                             </button>
-
-
                                         </form>
                                     </td>
                                 </tr>
@@ -105,14 +92,8 @@
                         </table>
                     </div>
                 </div>
-
-
-
             </div> <!-- container -->
-
         </div> <!-- content -->
-
-        <!-- Footer Start -->
         <footer class="footer">
             <div class="container-fluid">
                 <div class="row">
@@ -129,12 +110,6 @@
                 </div>
             </div>
         </footer>
-        <!-- end Footer -->
-
     </div>
-
-    <!-- ============================================================== -->
-    <!-- End Page content -->
-    <!-- ============================================================== -->
     @endsection
 

@@ -44,3 +44,4 @@ Route::get('/dashboard', function () {return view('dashboard');})->name('dashboa
 });
 
 Route::redirect('dashboard','providers');
+
