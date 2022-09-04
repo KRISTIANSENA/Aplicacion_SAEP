@@ -44,7 +44,7 @@
 
                 <!-- title-->
           <h4 class="text-center"> Iniciar sesion</h4>
-                <p class="text-muted mb-4">Ingresa tu correo electronico y contraseña para acceder a tu cuenta.</p>
+                <p class="text-center">Ingresa tu correo electronico y contraseña para acceder a tu cuenta.</p>
 
                 <!-- form -->
                 <form action="{{ route('login') }}" method="post">
@@ -97,10 +97,10 @@
     <div class="auth-fluid-right text-center">
         <div class="auth-user-testimonial">
             <h2 class="mb-3 text-white">Sirviendo con dedicación!</h2>
-            <p class="lead"><i class="mdi mdi-format-quote-open"></i> Dios es bueno <i class="mdi mdi-format-quote-close"></i>
+            <p class="lead"><i class="mdi mdi-format-quote-open"></i>   La buena comida y una cocina que sea calida, permiten que una casa sea verdaderamente un hogar.  <i class="mdi mdi-format-quote-close"></i>
             </p>
             <h5 class="text-white">
-                - Fadlisaad (Ubold Admin User)
+                - By (Richael Ray)
             </h5>
         </div> <!-- end auth-user-testimonial-->
     </div>
