@@ -9,13 +9,13 @@
     <meta name="author" content="" />
 
     <!-- css -->
-    <link href="styles/stylewel/css/bootstrap.css" rel="stylesheet" />
-    <link href="styles/stylewel/css/bootstrap-responsive.css" rel="stylesheet" />
-    <link href="styles/stylewel/css/prettyPhoto.css" rel="stylesheet" />
+    <link href="public/css/bootstrap.css" rel="stylesheet" />
+    <link href="public/css/bootstrap-responsive.css" rel="stylesheet" />
+    <link href="public/css/prettyPhoto.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
-    <link href="styles/stylewel/css/style.css" rel="stylesheet">
+    <link href="public/css/style.css" rel="stylesheet">
     <!-- Theme skin -->
-    <link id="t-colors" href="styles/stylewel/color/default.css" rel="stylesheet" />
+    <link id="t-colors" href="public/color/default.css" rel="stylesheet" />
 
 </head>
 
@@ -302,19 +302,19 @@
            <!-- javascript
              ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
-<script src="styles/stylewel/js/jquery.js"></script>
-<script src="styles/stylewel/js/jquery.easing.1.3.js"></script>
-<script src="styles/stylewel/js/bootstrap.js"></script>
-<script src="styles/stylewel/js/modernizr.custom.js"></script>
-<script src="styles/stylewel/js/toucheffects.js"></script>
-<script src="styles/stylewel/js/google-code-prettify/prettify.js"></script>
-<script src="styles/stylewel/js/jquery.prettyPhoto.js"></script>
-<script src="styles/stylewel/js/portfolio/jquery.quicksand.js"></script>
-<script src="styles/stylewel/js/portfolio/setting.js"></script>
-<script src="styles/stylewel/js/animate.js"></script>
+<script src="js/jquery.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/modernizr.custom.js"></script>
+<script src="js/toucheffects.js"></script>
+<script src="js/google-code-prettify/prettify.js"></script>
+<script src="js/jquery.prettyPhoto.js"></script>
+<script src="public/js/portfolio/jquery.quicksand.js"></script>
+<script src="public/js/portfolio/setting.js"></script>
+<script src="public/js/animate.js"></script>
 
 <!-- Template Custom JavaScript File -->
-<script src="styles/stylewel/js/custom.js"></script>
+<script src="public/js/custom.js"></script>
 <script src="https://cdn.lordicon.com/xdjxvujz.js"></script>
 
 </body>
