@@ -11,17 +11,17 @@
                     <div class="auth-logo">
                         <a href="" class="logo logo-dark text-center">
                                     <span>
-                                        <img class="center-block" src="styles/style/img/logo1.jpg" alt="150" height="150">
+                                        <img class="center-block" src="public/img/logo1.jpg" alt="150" height="150">
                                     </span>
                         </a>
                     </div>
-                
+
                 <!-- Titulo-->
                 <h4 class="text-center"> Iniciar sesion</h4>
                 <p class="text-center">Ingresa tu correo electronico y contraseña para acceder a tu cuenta.</p>
 
                     <!-- Formato -->
-                
+
                     <form action="{{ route('login') }}" method="post">
                     @csrf
                     <div class="mb-3">
@@ -36,7 +36,7 @@
                                 <span class="password-eye"></span>
                             </div>
                         </div>
-                    </div>      
+                    </div>
                     <div class="mb-3">
                         <div class="form-check">
                             <input type="checkbox" class="form-check-input" id="checkbox-signin">
@@ -67,8 +67,8 @@
     <div class="auth-fluid-right text-center">
         <div class="auth-user-testimonial">
             <h2 class="mb-3 text-white">Sirviendo con dedicación!</h2>
-            <p class="lead"><i class="mdi mdi-format-quote-open"></i>  
-             La buena comida y una cocina que sea calida, permiten que una casa sea verdaderamente un hogar.  
+            <p class="lead"><i class="mdi mdi-format-quote-open"></i>
+             La buena comida y una cocina que sea calida, permiten que una casa sea verdaderamente un hogar.
              <i class="mdi mdi-format-quote-close"></i>
             </p>
             <h5 class="text-white">
