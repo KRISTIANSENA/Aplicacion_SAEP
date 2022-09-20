@@ -9,16 +9,16 @@
     <meta content="A fully featured admin theme which can be used to build CRM, CMS, etc." name="description" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <!-- App favicon -->
-    <link rel="shortcut icon" href="/img/favicon.ico">
+    <link rel="shortcut icon" href="img/favicon.ico">
 
     <!-- Bootstrap css -->
-    <link href="public/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <!-- App css -->
-    <link href="public/css/app.min.css" rel="stylesheet" type="text/css" id="app-style"/>
+    <link href="css/app.min.css" rel="stylesheet" type="text/css" id="app-style"/>
     <!-- icons -->
-    <link href="public/css/icons.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/icons.min.css" rel="stylesheet" type="text/css" />
     <!-- Head js -->
-    <script src="public/js/head.js"></script>
+    <script src="js/head.js"></script>
 
 </head>
 
@@ -30,10 +30,10 @@
 <!-- Fin de Contenido -->
 
 <!-- Vendor js -->
-<script src="public/js/vendor.min.js"></script>
+<script src="js/vendor.min.js"></script>
 
 <!-- App js -->
-<script src="public/js/app.min.js"></script>
+<script src="js/app.min.js"></script>
 
 </body>
 </html>

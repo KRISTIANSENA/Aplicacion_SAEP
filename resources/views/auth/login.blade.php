@@ -11,7 +11,7 @@
                     <div class="auth-logo">
                         <a href="" class="logo logo-dark text-center">
                                     <span>
-                                        <img class="center-block" src="public/img/logo1.jpg" alt="150" height="150">
+                                        <img class="center-block" src="img/logo1.jpg" alt="150" height="150">
                                     </span>
                         </a>
                     </div>

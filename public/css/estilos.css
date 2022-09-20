@@ -8,7 +8,7 @@
 body {
 	font-family: "Arial", serif;
 	font-size: 12px;
-	background: url(imagenes/fondo.jpg) no-repeat center center fixed;
+	background: url('fondo.jpg') no-repeat center center fixed;
 	-webkit-background-size: cover;
 	background-size: cover;
 }

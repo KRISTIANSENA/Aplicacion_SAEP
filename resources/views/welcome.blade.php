@@ -9,11 +9,11 @@
     <meta name="author" content="" />
 
     <!-- css -->
-    <link href="public/css/bootstrap.css" rel="stylesheet" />
-    <link href="public/css/bootstrap-responsive.css" rel="stylesheet" />
-    <link href="public/css/prettyPhoto.css" rel="stylesheet" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/bootstrap-responsive.css" rel="stylesheet" />
+    <link href="css/prettyPhoto.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
-    <link href="public/css/style.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
     <!-- Theme skin -->
     <link id="t-colors" href="public/color/default.css" rel="stylesheet" />
 
@@ -309,12 +309,12 @@
 <script src="js/toucheffects.js"></script>
 <script src="js/google-code-prettify/prettify.js"></script>
 <script src="js/jquery.prettyPhoto.js"></script>
-<script src="public/js/portfolio/jquery.quicksand.js"></script>
-<script src="public/js/portfolio/setting.js"></script>
-<script src="public/js/animate.js"></script>
+<script src="js/portfolio/jquery.quicksand.js"></script>
+<script src="js/portfolio/setting.js"></script>
+<script src="js/animate.js"></script>
 
 <!-- Template Custom JavaScript File -->
-<script src="public/js/custom.js"></script>
+<script src="js/custom.js"></script>
 <script src="https://cdn.lordicon.com/xdjxvujz.js"></script>
 
 </body>
