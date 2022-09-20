@@ -45,7 +45,7 @@
                         </div>
                     </div>
                     <div class="text-center d-grid">
-                        <button class="btn btn-primary" type="submit">Iniciar sesion </button>
+                        <button class="btn btn-danger" type="submit">Iniciar sesion </button>
                     </div>
                     <!-- social-->
 
