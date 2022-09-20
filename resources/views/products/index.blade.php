@@ -25,7 +25,7 @@
                                     <div class="col-auto">
                                         <form class="d-flex flex-wrap align-items-center">
                                             <label for="inputPassword2" class="visually-hidden">Buscar</label>
-                                            <div class="me-3">
+                                            <div class="me-4">
                                                 <input type="search" class="form-control my-1 my-lg-0" id="inputPassword2" placeholder="Buscar...">
                                             </div>
                                             <label for="status-select" class="me-2">Sort By</label>
@@ -42,7 +42,7 @@
                                     </div>
                                     <div class="col-auto">
                                         <div class="text-lg-end my-1 my-lg-0">
-                                            <button type="button" class="btn btn-success waves-effect waves-light me-1"><i class="mdi mdi-cog"></i></button>
+                                            <button type="button" class="btn btn-success waves-effect waves-light me-2"><i class="mdi mdi-cog"></i></button>
                                             <a href="{{ route('products.create') }}" class="btn"><i class="mdi mdi-plus-circle me-1"></i>Crear nuevo Producto</a>
                                         </div>
                                     </div><!-- end col-->
@@ -53,10 +53,15 @@
                 </div>
                 <!-- end row-->
                 <div>
-
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="row justify-content-between">
+                                        <div class="col-auto">
+                                            <form class="d-flex flex-wrap align-items-center">
                     <div class="text-right ">
-
-                        <table>
+                        <table class=class="table-hover">
                             <thead>
                             <tr>
                                 <th>Numero de id  </th>
@@ -93,23 +98,6 @@
                     </div>
                 </div>
             </div> <!-- container -->
-        </div> <!-- content -->
-        <footer class="footer">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-6">
-                        <script>document.write(new Date().getFullYear())</script> &copy; SAEP Grup <a href="">Practipasta</a>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="text-md-end footer-links d-none d-sm-block">
-                            <a href="javascript:void(0);">Acerca de</a>
-                            <a href="javascript:void(0);">Ayuda</a>
-                            <a href="javascript:void(0);">Contactenos</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
-    </div>
+
     @endsection
 
