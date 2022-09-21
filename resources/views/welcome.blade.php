@@ -119,8 +119,8 @@
         <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                 <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
-                    <h2 class="block-title"> About Us </h2>
-                    <h3>IT STARTED, QUITE SIMPLY, LIKE THIS...</h3>
+                    <h2 class="block-title"> Nosotros </h2>
+                    <h3>DISTRIBUIDORA DE PRACTIPASTA </h3>
                     <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusm incididunt ut labore et dolore magna aliqua. Ut enim ad minim venia, nostrud exercitation ullamco. </p>
 
                     <p> Aenean commodo ligula eget dolor aenean massa. Cum sociis nat penatibu set magnis dis parturient montes, nascetur ridiculus mus. quam felisorat, ultricies nec, Aenean commodo ligula eget dolor penatibu set magnis is parturient montes, nascetur ridiculus mus. quam felisorat, ultricies nec, pellentesque eu, pretium quis, sem. quat massa quis enim. Donec vitae sapien ut libero venenatis fauci Nullam quis ante. Etiam sit amet rci eget eros. </p>
@@ -149,8 +149,8 @@
         <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
-                    <h2 class="block-title color-white text-center"> Today's Special </h2>
-                    <h5 class="title-caption text-center"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusm incididunt ut labore et dolore magna aliqua. Ut enim ad minim venia,nostrud exercitation ullamco. </h5>
+                    <h2 class="block-title color-white text-center"> Nuestros Productos </h2>
+                    <h5 class="title-caption text-center">   </h5>
                 </div>
                 <div class="special-box">
                     <div id="owl-demo">
@@ -158,9 +158,12 @@
                             <a href="#" class="item-hover">
                                 <div class="item-info">
                                     <div class="headline">
-                                        SALMON STEAK
+                                        Referencia E-G01zip
                                         <div class="line"></div>
-                                        <div class="dit-line">Lorem ipsum dolor sit amet, consectetur adip aliqua. Ut enim ad minim venia.</div>
+                                        <div class="dit-line">
+                                            Empanada Mediana
+                                            Tamaño: 14cm
+                                            Peso: 500gr x15 Unid</div>
                                     </div>
                                 </div>
                             </a>
@@ -172,9 +175,12 @@
                             <a href="#" class="item-hover">
                                 <div class="item-info">
                                     <div class="headline">
-                                        ITALIAN PIZZA
+                                        Referencia E-G03zip
                                         <div class="line"></div>
-                                        <div class="dit-line">Lorem ipsum dolor sit amet, consectetur adip aliqua. Ut enim ad minim venia.</div>
+                                        <div class="dit-line">
+                                            Empanada Grande
+                                            Tamaño: 15cm
+                                            Peso: 560gr x15 Unid.</div>
                                     </div>
                                 </div>
                             </a>
@@ -186,9 +192,12 @@
                             <a href="#" class="item-hover">
                                 <div class="item-info">
                                     <div class="headline">
-                                        VEG. ROLL
+                                        Referencia E-T04zip
                                         <div class="line"></div>
-                                        <div class="dit-line">Lorem ipsum dolor sit amet, consectetur adip aliqua. Ut enim ad minim venia.</div>
+                                        <div class="dit-line">
+                                            Empanada Tradicional
+                                            Tamaño: 13cm
+                                            Peso: 450gr x15 Unid</div>
                                     </div>
                                 </div>
                             </a>
@@ -207,21 +216,49 @@
                                 </div>
                             </a>
                             <div class="item-img">
-                                <img src="img/special-menu-1.jpg" alt="sp-menu">
+                                <img src="img/special-menu-4.jpg" alt="sp-menu">
                             </div>
                         </div>
                         <div class="item item-type-zoom">
                             <a href="#" class="item-hover">
                                 <div class="item-info">
                                     <div class="headline">
-                                        VEG. ROLL
+                                        SALMON STEAK
                                         <div class="line"></div>
                                         <div class="dit-line">Lorem ipsum dolor sit amet, consectetur adip aliqua. Ut enim ad minim venia.</div>
                                     </div>
                                 </div>
                             </a>
                             <div class="item-img">
-                                <img src="img/special-menu-2.jpg" alt="sp-menu">
+                                <img src="img/special-menu-5.jpg" alt="sp-menu">
+                            </div>
+                        </div>
+                        <div class="item item-type-zoom">
+                            <a href="#" class="item-hover">
+                                <div class="item-info">
+                                    <div class="headline">
+                                        SALMON STEAK
+                                        <div class="line"></div>
+                                        <div class="dit-line">Lorem ipsum dolor sit amet, consectetur adip aliqua. Ut enim ad minim venia.</div>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="item-img">
+                                <img src="img/special-menu-6.jpg" alt="sp-menu">
+                            </div>
+                        </div>
+                        <div class="item item-type-zoom">
+                            <a href="#" class="item-hover">
+                                <div class="item-info">
+                                    <div class="headline">
+                                        SALMON STEAK
+                                        <div class="line"></div>
+                                        <div class="dit-line">Lorem ipsum dolor sit amet, consectetur adip aliqua. Ut enim ad minim venia.</div>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="item-img">
+                                <img src="img/special-menu-7.jpg" alt="sp-menu">
                             </div>
                         </div>
                     </div>
@@ -850,58 +887,60 @@
                             Reservations
                         </h2>
                     </div>
-                    <h4 class="form-title">BOOKING FORM</h4>
-                    <p>PLEASE FILL OUT ALL REQUIRED* FIELDS. THANKS!</p>
+                    <h4 class="form-title">CONTACTENOS</h4>
+                    <p>POR FAVOR DILIGENCIE LA INFORMACION GRACIAS!</p>
 
                     <form id="contact-form" method="post" class="reservations-box" name="contactform" action="mail.php">
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                             <div class="form-box">
-                                <input type="text" name="form_name" id="form_name" placeholder="Name" required="required" data-error="Firstname is required.">
+                                <input type="text" name="form_name" id="form_name" placeholder="Nombres y apellidos" required="required" data-error="Firstname is required.">
                             </div>
                         </div>
                         <!-- end col -->
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                             <div class="form-box">
-                                <input type="email" name="email" id="email" placeholder="E-Mail ID" required="required" data-error="E-mail id is required.">
+                                <input type="email" name="email" id="email" placeholder="Correo" required="required" data-error="E-mail id is required.">
                             </div>
                         </div>
                         <!-- end col -->
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                             <div class="form-box">
-                                <input type="text" name="phone" id="phone" placeholder="contact no.">
+                                <input type="text" name="phone" id="phone" placeholder="Telefono No.">
                             </div>
                         </div>
                         <!-- end col -->
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                             <div class="form-box">
                                 <select name="no_of_persons" id="no_of_persons" class="selectpicker">
-                                    <option selected disabled>No. Of persons</option>
-                                    <option>1</option>
-                                    <option>2</option>
-                                    <option>3</option>
+                                    <option selected disabled>Producto de tu interes</option>
+                                    <option>G04 560 Gr</option>
+                                    <option>G01 500 Gr</option>
+                                    <option>T04 450 Gr</option>
+                                    <option>FG 560 Gr</option>
+                                    <option>FP 520 Gr</option>
                                 </select>
                             </div>
                         </div>
                         <!-- end col -->
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                             <div class="form-box">
-                                <input type="text" name="date-picker" id="date-picker" placeholder="Date" required="required" data-error="Date is required." />
+                                <input type="text" name="date-picker" id="date-picker" placeholder="Fecha" required="required" data-error="Date is required." />
                             </div>
                         </div>
                         <!-- end col -->
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                             <div class="form-box">
-                                <input type="text" name="time-picker" id="time-picker" placeholder="Time" required="required" data-error="Time is required." />
+                                <input type="text" name="time-picker" id="time-picker" placeholder="Hora" required="required" data-error="Time is required." />
                             </div>
                         </div>
                         <!-- end col -->
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                             <div class="form-box">
                                 <select name="preferred_food" id="preferred_food" class="selectpicker">
-                                    <option selected disabled>preferred food</option>
-                                    <option>Indian</option>
-                                    <option>Continental</option>
-                                    <option>Mexican</option>
+                                    <option selected disabled>Eres</option>
+                                    <option>Salsamentaria</option>
+                                    <option>Elaborador</option>
+                                    <option>Supermercado</option>
                                 </select>
                             </div>
                         </div>
@@ -909,10 +948,10 @@
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                             <div class="form-box">
                                 <select name="occasion" id="occasion" class="selectpicker">
-                                    <option selected disabled>Occasion</option>
-                                    <option>Wedding</option>
-                                    <option>Birthday</option>
-                                    <option>Anniversary</option>
+                                    <option selected disabled>Ciudad</option>
+                                    <option>Bogota Dc</option>
+                                    <option>Soacha</option>
+                                    <option>Sibate</option>
                                 </select>
                             </div>
                         </div>
@@ -920,7 +959,7 @@
 
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                             <div class="reserve-book-btn text-center">
-                                <button class="hvr-underline-from-center" type="submit" value="SEND" id="submit">BOOK MY TABLE </button>
+                                <button class="hvr-underline-from-center" type="submit" value="SEND" id="submit">Enviar informacion </button>
                             </div>
                         </div>
                         <!-- end col -->
@@ -943,11 +982,11 @@
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
-                        <h2 class="ft-title color-white text-center"> Newsletter </h2>
-                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                        <h2 class="ft-title color-white text-center"> Recibir notificaciones </h2>
+                        <p> Si quieres recibir informacion sobre eventos y promociones</p>
                     </div>
                     <form>
-                        <input type="email" placeholder="Enter your e-mail id">
+                        <input type="email" placeholder="Ingresa tu correo ">
                         <a href="#" class="orange-btn"><i class="fa fa-paper-plane-o" aria-hidden="true"></i></a>
                     </form>
                 </div>
@@ -964,7 +1003,7 @@
                 <div class="footer-in-main">
                     <div class="footer-logo">
                         <div class="text-center">
-                            <img src="img/logo.png" alt="" />
+                            <img src="img/logo.png" alt="" WIDTH="220 PX"/>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
