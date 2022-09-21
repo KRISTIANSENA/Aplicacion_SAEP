@@ -59,21 +59,18 @@
                             </button>
                             <div class="logo">
                                 <a class="navbar-brand js-scroll-trigger logo-header" href="#">
-                                    <img src="img/logo.png" alt="">
+                                    <img src="img/logo.png" alt="" width="210 px">
                                 </a>
                             </div>
                         </div>
                         <div id="navbar" class="navbar-collapse collapse">
                             <ul class="nav navbar-nav navbar-right">
-                                <li class="active"><a href="#banner">Home</a></li>
-                                <li><a href="#about">About us</a></li>
-                                <li><a href="#menu">Menu</a></li>
-                                <li><a href="#our_team">Team</a></li>
-                                <li><a href="#gallery">Gallery</a></li>
+                                <li class="active"><a href="#banner">Inicio</a></li>
+                                <li><a href="#about">Nosotros</a></li>
+                                <li><a href="#gallery">Galeria</a></li>
                                 <li><a href="#blog">Blog</a></li>
-                                <li><a href="#pricing">pricing</a></li>
-                                <li><a href="#reservation">Reservaion</a></li>
-                                <li><a href="#footer">Contact us</a></li>
+                                <li><a href="#reservation">Contactenos</a></li>
+                                <li><a href="#footer">iniciar sesion</a></li>
                             </ul>
                         </div>
                         <!-- end nav-collapse -->
@@ -95,11 +92,11 @@
             <div class="banner-static">
                 <div class="banner-text">
                     <div class="banner-cell">
-                        <h1>Dinner with us  <span class="typer" id="some-id" data-delay="200" data-delim=":" data-words="Friends:Family:Officemates" data-colors="red"></span><span class="cursor" data-cursorDisplay="_" data-owner="some-id"></span></h1>
-                        <h2>Accidental appearances </h2>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diem nonummy nibh euismod</p>
+                        <h1>Comprometidos con   <span class="typer" id="some-id" data-delay="200" data-delim=":" data-words="Calidad:Amor:Eficiencia" data-colors="red"></span><span class="cursor" data-cursorDisplay="_" data-owner="some-id"></span></h1>
+                        <h2>Distribuidora de alimentos </h2>
+                        <p>La mejor pasta para crear sueños y deleitar tu paladar</p>
                         <div class="book-btn">
-                            <a href="#reservation" class="table-btn hvr-underline-from-center">Book my Table</a>
+                            <a href="#reservation" class="table-btn hvr-underline-from-center">Contactanos</a>
                         </div>
                         <a href="#about">
                             <div class="mouse"></div>
@@ -842,103 +839,6 @@
 </div>
 <!-- end blog-main -->
 
-<div id="pricing" class="pricing-main pad-top-100 pad-bottom-100">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <h2 class="block-title text-center">
-                    Pricing
-                </h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut orci varius, elementum lectus nec, aliquam lectus. Duis neque augue, maximus in sapien ut, porta pharetra odio.</p>
-            </div>
-            <div class="panel-pricing-in">
-                <!-- item -->
-                <div class="col-md-4 col-sm-4 text-center">
-                    <div class="panel panel-pricing">
-                        <div class="panel-heading">
-                            <div class="pric-icon">
-                                <img src="img/store.png" alt="" />
-                            </div>
-                            <h3>Basic</h3>
-                        </div>
-                        <div class="panel-body text-center">
-                            <p><strong>$30/<span>Month</span></strong></p>
-                        </div>
-                        <ul class="list-group text-center">
-                            <li class="list-group-item"><i class="fa fa-check"></i> One Website</li>
-                            <li class="list-group-item"><i class="fa fa-check"></i> One User</li>
-                            <li class="list-group-item"><i class="fa fa-check"></i> 10 GB Bandwidth</li>
-                            <li class="list-group-item"><i class="fa fa-times"></i> 2GB Storage</li>
-                            <li class="list-group-item"><i class="fa fa-times"></i> Offline work</li>
-                            <li class="list-group-item"><i class="fa fa-check"></i> 24x7 Support</li>
-                        </ul>
-                        <div class="panel-footer">
-                            <a class="btn btn-lg btn-block hvr-underline-from-center" href="#">Purchase Now!</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- /item -->
-
-                <!-- item -->
-                <div class="col-md-4 col-sm-4 text-center">
-                    <div class="panel panel-pricing">
-                        <div class="panel-heading">
-                            <div class="pric-icon">
-                                <img src="img/food.png" alt="" />
-                            </div>
-                            <h3>Pro</h3>
-                        </div>
-                        <div class="panel-body text-center">
-                            <p><strong>$60/<span>Month</span></strong></p>
-                        </div>
-                        <ul class="list-group text-center">
-                            <li class="list-group-item"><i class="fa fa-check"></i> One Website</li>
-                            <li class="list-group-item"><i class="fa fa-check"></i> One User</li>
-                            <li class="list-group-item"><i class="fa fa-check"></i> 50 GB Bandwidth</li>
-                            <li class="list-group-item"><i class="fa fa-check"></i> 2GB Storage</li>
-                            <li class="list-group-item"><i class="fa fa-check"></i> Offline work</li>
-                            <li class="list-group-item"><i class="fa fa-check"></i> 24x7 Support</li>
-                        </ul>
-                        <div class="panel-footer">
-                            <a class="btn btn-lg btn-block hvr-underline-from-center" href="#">Purchase Now!</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- /item -->
-
-                <!-- item -->
-                <div class="col-md-4 col-sm-4 text-center">
-                    <div class="panel panel-pricing">
-                        <div class="panel-heading">
-                            <div class="pric-icon">
-                                <img src="img/coffee.png" alt="" />
-                            </div>
-                            <h3>Platinum</h3>
-                        </div>
-                        <div class="panel-body text-center">
-                            <p><strong>$90/<span>Month</span></strong></p>
-                        </div>
-                        <ul class="list-group text-center">
-                            <li class="list-group-item"><i class="fa fa-check"></i> One Website</li>
-                            <li class="list-group-item"><i class="fa fa-check"></i> One User</li>
-                            <li class="list-group-item"><i class="fa fa-check"></i> 100 GB Bandwidth</li>
-                            <li class="list-group-item"><i class="fa fa-check"></i> 2GB Storage</li>
-                            <li class="list-group-item"><i class="fa fa-check"></i> Offline work</li>
-                            <li class="list-group-item"><i class="fa fa-check"></i> 24x7 Support</li>
-                        </ul>
-                        <div class="panel-footer">
-                            <a class="btn btn-lg btn-block hvr-underline-from-center" href="#">Purchase Now!</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- /item -->
-            </div>
-        </div>
-        <!-- end row -->
-    </div>
-    <!-- end container -->
-</div>
-<!-- end pricing-main -->
 
 <div id="reservation" class="reservations-main pad-top-100 pad-bottom-100">
     <div class="container">
@@ -1118,20 +1018,20 @@
                     <!-- end col -->
                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                         <div class="footer-box-c">
-                            <h3>Contact Us</h3>
+                            <h3>Contactenos</h3>
                             <p>
                                 <i class="fa fa-map-signs" aria-hidden="true"></i>
-                                <span>6 E Esplanade, St Albans VIC 3021, Australia</span>
+                                <span> Carrera 84 No 7D 49, Bogota Dc, Colombia</span>
                             </p>
                             <p>
                                 <i class="fa fa-mobile" aria-hidden="true"></i>
                                 <span>
-									+91 80005 89080
+									+57 320 312 5678
 								</span>
                             </p>
                             <p>
                                 <i class="fa fa-envelope" aria-hidden="true"></i>
-                                <span><a href="#">support@foodfunday.com</a></span>
+                                <span><a href="#">soporte@distrijj.com</a></span>
                             </p>
                         </div>
                         <!-- end footer-box-c -->
@@ -1139,16 +1039,16 @@
                     <!-- end col -->
                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                         <div class="footer-box-d">
-                            <h3>Opening Hours</h3>
+                            <h3>Horario de atencion</h3>
 
                             <ul>
                                 <li>
-                                    <p>Monday - Thursday </p>
-                                    <span> 11:00 AM - 9:00 PM</span>
+                                    <p>Lunes - Viernes </p>
+                                    <span> 07:00 AM - 4:00 PM</span>
                                 </li>
                                 <li>
-                                    <p>Friday - Saturday </p>
-                                    <span>  11:00 AM - 5:00 PM</span>
+                                    <p>  Sabados </p>
+                                    <span>  06:00 AM - 3:00 PM</span>
                                 </li>
                             </ul>
                         </div>
@@ -1165,7 +1065,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <h6 class="copy-title"> Copyright &copy; 2017 Food Funday is powered by <a href="#" target="_blank"></a> </h6>
+                        <h6 class="copy-title"> Copyright &copy; 2022 SAEP GRUP <a href="#" target="_blank"></a> </h6>
                     </div>
                 </div>
                 <!-- end row -->
