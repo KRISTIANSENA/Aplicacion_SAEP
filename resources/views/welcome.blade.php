@@ -279,26 +279,26 @@
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
                     <h2 class="block-title text-center">
-                        Our Menu
+                        Recetas
                     </h2>
-                    <p class="title-caption text-center">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+                    <p class="title-caption text-center">A qui encontraras las diferentes recetas e ideas de preparacion de nuestro producto, solo escoje la que mas te gusta y preparala, y veras como con unos simples pasos, tendras el mejor exito en la cocina </p>
                 </div>
                 <div class="tab-menu">
                     <div class="slider slider-nav">
                         <div class="tab-title-menu">
-                            <h2>STARTERS</h2>
+                            <h2>Flautas</h2>
                             <p> <i class="flaticon-canape"></i> </p>
                         </div>
                         <div class="tab-title-menu">
-                            <h2>MAIN DISHES</h2>
+                            <h2>Horneable</h2>
                             <p> <i class="flaticon-dinner"></i> </p>
                         </div>
                         <div class="tab-title-menu">
-                            <h2>DESERTS</h2>
+                            <h2>Freir</h2>
                             <p> <i class="flaticon-desert"></i> </p>
                         </div>
                         <div class="tab-title-menu">
-                            <h2>DRINKS</h2>
+                            <h2>Pasabocas</h2>
                             <p> <i class="flaticon-coffee"></i> </p>
                         </div>
                     </div>
@@ -308,12 +308,12 @@
                                 <div class="offer-item">
                                     <img src="img/menu-item-thumbnail-01.jpg" alt="" class="img-responsive">
                                     <div>
-                                        <h3>GARLIC BREAD</h3>
+                                        <h3>Flautas de jamon y queso</h3>
                                         <p>
                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mollis eleifend dapibus.
                                         </p>
                                     </div>
-                                    <span class="offer-price">$8.5</span>
+                                    <span class="offer-price">8.5</span>
                                 </div>
                             </div>
                             <!-- end col -->
@@ -321,12 +321,12 @@
                                 <div class="offer-item">
                                     <img src="img/menu-item-thumbnail-02.jpg" alt="" class="img-responsive">
                                     <div>
-                                        <h3>MIXED SALAD</h3>
+                                        <h3>Flautas de pollo con champiñones</h3>
                                         <p>
                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mollis eleifend dapibus.
                                         </p>
                                     </div>
-                                    <span class="offer-price">$25</span>
+                                    <span class="offer-price">9.0</span>
                                 </div>
                             </div>
                             <!-- end col -->
@@ -334,12 +334,12 @@
                                 <div class="offer-item">
                                     <img src="img/menu-item-thumbnail-03.jpg" alt="" class="img-responsive">
                                     <div>
-                                        <h3>BBQ CHICKEN WINGS</h3>
+                                        <h3>Flautas rancheras</h3>
                                         <p>
                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mollis eleifend dapibus.
                                         </p>
                                     </div>
-                                    <span class="offer-price">$10</span>
+                                    <span class="offer-price">9.0</span>
                                 </div>
                             </div>
                             <!-- end col -->
@@ -485,7 +485,7 @@
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
                     <h2 class="block-title text-center">
-                        Our Team
+                        Nuestro equipo
                     </h2>
                     <p class="title-caption text-center">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
                 </div>
@@ -498,7 +498,7 @@
                                     <a href="#"><img src="img/staff-01.jpg" alt=""></a>
                                 </div>
                                 <div class="text-col">
-                                    <h3>John Doggett</h3>
+                                    <h3>Departamento Administrativo</h3>
                                     <p>Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Aenean commodo ligula.</p>
                                     <ul class="team-social">
                                         <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
@@ -515,7 +515,7 @@
                                     <a href="#"><img src="img/staff-02.jpg" alt=""></a>
                                 </div>
                                 <div class="text-col">
-                                    <h3>Jeffrey Spender</h3>
+                                    <h3>Cuarto frio y despacho</h3>
                                     <p>Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Aenean commodo ligula.</p>
                                     <ul class="team-social">
                                         <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
@@ -532,7 +532,7 @@
                                     <a href="#"><img src="img/staff-03.jpg" alt=""></a>
                                 </div>
                                 <div class="text-col">
-                                    <h3>Monica Reyes</h3>
+                                    <h3>Transporte y logistica</h3>
                                     <p>Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Aenean commodo ligula.</p>
                                     <ul class="team-social">
                                         <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
@@ -564,9 +564,9 @@
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
                     <h2 class="block-title text-center">
-                        Our Gallery
+                        Galeria
                     </h2>
-                    <p class="title-caption text-center">There are many variations of passages of Lorem Ipsum available </p>
+                    <p class="title-caption text-center">Encontraras los mejores platos </p>
                 </div>
                 <div class="gal-container clearfix">
                     <div class="col-md-8 col-sm-12 co-xs-12 gal-item">
@@ -785,7 +785,7 @@
         <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <h2 class="block-title text-center">
-                    Our Blog
+                    Blog Distribuidora JJ
                 </h2>
                 <div class="blog-box clearfix">
                     <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
