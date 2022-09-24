@@ -50,7 +50,7 @@
                                 <li><a href="#gallery">Galeria</a></li>
                                 <li><a href="#blog">Blog</a></li>
                                 <li><a href="#reservation">Contactenos</a></li>
-                                <li><a href="#footer">iniciar sesion</a></li>
+                                <li><a href="login">iniciar sesion</a></li>
                             </ul>
                         </div>
                         <!-- end nav-collapse -->

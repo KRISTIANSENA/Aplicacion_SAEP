@@ -26,15 +26,34 @@ a {
 	border: 1px solid rgba(255, 255, 255, 0.4);
 	border-top: none;
 }
-.formulario{
-    float: left;
-    width: 25%;
-    min-height: 600px;
+
+.form {
+    width: 20%;
+    min-height: 200px;
     margin: auto;
     background: rgba(242, 246, 248, 0.25);
-    border: 1px solid rgba(255, 255, 255, 0.4);
+    border: 6px solid rgba(255, 255, 255, 0.4);
     border-top: none;
 }
+.form form {
+    width: 200px;
+    min-height: 300px;
+    margin: 10px 10px 10px 0px;
+    float: left;
+    color: #19191a;
+    background: rgba(255, 255, 255, 0.5);
+    display: block;
+}
+.form label {
+    width: 100px;
+    min-height: 29px;
+    margin: 10px 10px 10px 0px;
+    float: left;
+    color: #19191a;
+    background: rgba(255, 255, 255, 0.5);
+    display: block;
+}
+
 .contacto {
     width: 60%;
     color: #36A0FF;
@@ -46,8 +65,6 @@ a {
     font-size: 35px;
     color: #36A0FF;
 }
-
-
 
 header {
 	width: 100%;
