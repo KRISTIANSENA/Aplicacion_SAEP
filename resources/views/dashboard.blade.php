@@ -7,6 +7,17 @@
     <link href="css/estilos.css" rel="stylesheet" type="text/css">
 </head>
 <body>
+<div class="formulario">
+    <header>
+        <div class="form-group">
+            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+            <div class="col-md-8">
+                <input id="lname" name="name" type="text" placeholder="Last Name" class="form-control">
+            </div>
+        </div>
+    </header>
+
+    </div>
 <div class="estructura">
     <header>
         <img class="logo" src="img/saep.jpg" width="1 px" height="10 px" alt="logotipo">
