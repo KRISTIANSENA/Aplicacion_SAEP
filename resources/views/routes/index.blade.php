@@ -85,15 +85,11 @@
                     @method('DELETE')
                     <a type="submit" class="text-danger d-inline eliminar" title="Eliminar" href="acciones.php?eliminar=1&id=3"><i class="fa fa-trash"></i></a>
                     <a class="text-primary d-inline" title="detalle" href="{{route('products.show', $route->id)}}"><i class="fa fa-eye"></i></a>
-
                     </button>
                 </form>
-
-
             </td>
         </tr>
     @endforeach
     </tbody>
 </table>
-
 @endsection

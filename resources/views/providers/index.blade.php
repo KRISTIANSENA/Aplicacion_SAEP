@@ -5,7 +5,7 @@
             <!-- Example DataTables Card-->
             <div class="card mb-3">
                 <div class="h3 card-header">
-                    <i class="fa fa-table"></i>  PRODUCTOS
+                    <i class="fa fa-table"></i>  PROVEEDORES
                     <a class="btn text-primary float-right p-0 ml-3" href="nuevo.php" title="Nuevo Producto"><i class="fa fa-plus fa-2x"></i></a>
                     <a class="btn text-primary float-right p-0 ml-3" href="consultar.php" title="Consultar"><i class="fa fa-search fa-2x"></i></a></div>
                 <div class="card-body">
