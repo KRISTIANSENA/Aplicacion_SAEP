@@ -1,44 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
-    <!-- Basic -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-    <!-- Mobile Metas -->
     <meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0">
-
-    <!-- Site Metas -->
-    <title>Food Funday Restaurant - One page HTML Responsive</title>
+    <title>welcome-practipasta</title>
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="author" content="">
-
-    <!-- Site Icons -->
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
     <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
-
-    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap1.min.css">
-    <!-- Site CSS -->
     <link rel="stylesheet" href="css/style1.css">
-    <!-- Responsive CSS -->
     <link rel="stylesheet" href="css/responsive.css">
-    <!-- color -->
     <link id="changeable-colors" rel="stylesheet" href="css/colors/orange.css" />
-
-    <!-- Modernizer -->
     <script src="js/modernizer1.js"></script>
-
-    <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
 
 </head>
-
 <body>
 <div id="loader">
     <div id="status"></div>
@@ -70,7 +50,7 @@
                                 <li><a href="#gallery">Galeria</a></li>
                                 <li><a href="#blog">Blog</a></li>
                                 <li><a href="#reservation">Contactenos</a></li>
-                                <li><a href="#footer">iniciar sesion</a></li>
+                                <li><a href="login">iniciar sesion</a></li>
                             </ul>
                         </div>
                         <!-- end nav-collapse -->
@@ -798,9 +778,9 @@
                                     </div>
                                 </div>
                                 <div class="blog-dit">
-                                    <p><span>25 NOVEMBER, 2014</span></p>
-                                    <h2>LATEST RECIPES JUST IN!</h2>
-                                    <h5>BY John Doggett</h5>
+                                    <p><span>23 de septiembre 2022</span></p>
+                                    <h2>Como conservar practipasta!</h2>
+                                    <h5>SAEP GRUP</h5>
                                 </div>
                             </div>
                         </div>
@@ -816,9 +796,9 @@
                                     </div>
                                 </div>
                                 <div class="blog-dit">
-                                    <p><span>2 NOVEMBER, 2014</span></p>
-                                    <h2>NEW RECRUITS HAVE ARRIVED!</h2>
-                                    <h5>BY Jeffrey Spender</h5>
+                                    <p><span>21 septiembre, 2022</span></p>
+                                    <h2> pizza!</h2>
+                                    <h5>SAEP GRUP</h5>
                                 </div>
                             </div>
                         </div>
@@ -834,9 +814,9 @@
                                     </div>
                                 </div>
                                 <div class="blog-dit">
-                                    <p><span>4 NOVEMBER, 2014</span></p>
-                                    <h2>BAKING TIPS FROM THE PROS</h2>
-                                    <h5>BY Monica Reyes</h5>
+                                    <p><span>23 septiembre, 2022</span></p>
+                                    <h2>mensaje!!</h2>
+                                    <h5>SAEP GRUP</h5>
                                 </div>
                             </div>
                         </div>
@@ -852,9 +832,9 @@
                                     </div>
                                 </div>
                                 <div class="blog-dit">
-                                    <p><span>12 NOVEMBER, 2014</span></p>
-                                    <h2>ALL YOUR EGGS BELONG TO US</h2>
-                                    <h5>BY John Doggett</h5>
+                                    <p><span>12 septiembre, 2022</span></p>
+                                    <h2>una y mil formas de preparar..!</h2>
+                                    <h5>SAEP GRUP</h5>
                                 </div>
                             </div>
                         </div>
@@ -864,7 +844,7 @@
                 <!-- end blog-box -->
 
                 <div class="blog-btn-v">
-                    <a class="hvr-underline-from-center" href="#">View the Blog</a>
+                    <a class="hvr-underline-from-center" href="#">Mira el blog</a>
                 </div>
 
             </div>
@@ -884,7 +864,7 @@
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
                         <h2 class="block-title text-center">
-                            Reservations
+                            ¿Queremos saber mas de ti?
                         </h2>
                     </div>
                     <h4 class="form-title">CONTACTENOS</h4>
