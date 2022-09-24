@@ -70,7 +70,7 @@
         <!-- End of Main Content -->
 
         <!-- Footer -->
-        @extends('layouts.components.footer')
+        @include('layouts.components.footer')
         <!-- End of Footer -->
 
     </div>
@@ -105,7 +105,7 @@
 </div>
 
 <!--Scripts-->
-@extends('layouts.components.scrip')
+@include('layouts.components.scrip')
 
 </body>
 
