@@ -108,6 +108,7 @@
 @include('layouts.components.scrip')
 
 </body>
+<<<<<<< Updated upstream
 
 </html>
 
@@ -116,3 +117,6 @@
 
 
 
+=======
+</html>
+>>>>>>> Stashed changes

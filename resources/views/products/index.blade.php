@@ -86,6 +86,10 @@
                                     </div>
                                 </div> <!-- container -->
 
+<<<<<<< Updated upstream
     @endsection
 
 
+=======
+    @endsection
+>>>>>>> Stashed changes
