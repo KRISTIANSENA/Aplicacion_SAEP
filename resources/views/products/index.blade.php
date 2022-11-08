@@ -1,90 +1,29 @@
+<!doctype html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>Menu</title>
+    <link href="css/estilos.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="estructura">
+    <header>
+        <img class="logo" src="img/saep.jpg" width="1 px" height="5 px" alt="logotipo">
+    </header>
 
-    @extends('layouts.app')
-    @section('content')
-        <div class="content-page">
-            <div class="content">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="page-title-box">
-                                <h4 class="page-title">Productos</h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="card">
-                                <div class="card-body">
-                                    <div class="row justify-content-between">
-                                        <div class="col-auto">
-                                            <form class="d-flex flex-wrap align-items-center">
-                                                <label for="inputPassword2" class="visually-hidden">Buscar</label>
-                                                <div class="me-4">
-                                                    <input type="search" class="form-control my-1 my-lg-0" id="inputPassword2" placeholder="Buscar...">
-                                                </div>
-                                                <label for="status-select" class="me-2">Buscar Por</label>
-                                                <div class="me-sm-3">
-                                                    <select class="form-select my-1 my-lg-0" id="status-select">
-                                                        <option selected="">Todo</option>
-                                                        <option value="1">Popular</option>
-                                                        <option value="2">Precio mas bajo</option>
-                                                        <option value="3">Preciomasalto</option>
-                                                        <option value="4">mas vendido</option>
-                                                    </select>
-                                                </div>
-                                            </form>
-                                        </div>
-                                        <div class="col-auto">
-                                            <div class="text-lg-end my-1 my-lg-0">
-                                                <a class="btn text-primary float-right p-0 ml-3" href="{{ route('products.create') }}" title="Nuevo Producto"><i class="fa fa-plus fa-2x"></i></a>
-                                            </div>
-                                        </div><!-- end col-->
-                                    </div> <!-- end row -->
-                                </div>
-                            </div> <!-- end card -->
-                        </div> <!-- end col-->
-                    </div>
-                    <!-- end row-->
-                    <div>
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <div class="table-responsive">
-                                            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
-                                                <thead>
-                                                <tr>
-                                                    <th>Numero de id  </th>
-                                                    <th>Nombre del producto</th>
-                                                    <th>Marca</th>
-                                                    <th>Modelo</th>
-                                                    <th>acciones </th>
-                                                </tr>
-                                                </thead>
-                                                <tbody>
-                                                @foreach($products as $product)
-                                                    <tr>
-                                                        <td>{{ $product->id}}</td>
-                                                        <td>{{$product->product_name}}</td>
-                                                        <td>{{$product->brand}}</td>
-                                                        <td>{{ $product->model}}</td>
-                                                        <td>
-                                                            <form action="{{route('products.destroy',$product->id)}}" method="post" >
-                                                                @csrf
-                                                                    <a class="text-primary d-inline" title="editar" href="{{route('products.edit', $product->id)}}"><i class="fa fa-minus-circle"></i></a>
+    <div class="iconos">
 
-                                                                @method('DELETE')
-                                                                    <a type="submit" class="text-danger d-inline eliminar" title="Eliminar" href="acciones.php?eliminar=1&id=3"><i class="fa fa-trash"></i></a>
-                                                                    <a class="text-primary d-inline" title="detalle" href="{{route('products.show', $product->id)}}"><i class="fa fa-eye"></i></a>
-                                                            </form>
-                                                        </td>
-                                                    </tr>
-                                                @endforeach
-                                                </tbody>
-                                            </table>
-                                        </div>
-                                    </div>
-                                </div> <!-- container -->
-
-    @endsection
-
+        <a href="products/create" target="_blank"><img src="img/nuevoprducto.png" alt="Bodega" width="110 px"><p><h2>Nuevo producto</h2></p></a>
+        <a href="products/listproducts" target="_blank"><img src="img/listproduct.png" alt="Ventas" width="110 px"><p><h2>Productos</h2></p></a>
+        <a href="products" target="_blank"><img src="img/introalmacen.png" alt="Almacen" width="110 px"><p><h2>Ingreso Almacen</h2></p></a>
+        <a href="profile" target="_blank"><img src="img/saldomic.png" alt="administrador" width="110 px"><p><h2>Salida por ruta</h2></p></a>
+        <a href="customers" target="_blank"><img src="img/salclie.png" alt="Clientes" width="110 px"><p><h2>Salida por cliente</h2></p></a>
+        <a href="providers" target="_blank"><img src="img/devpro.png" alt="diot" width="110 px"><p><h2>Devoluciones</h2></p></a>
+        <a href="providers" target="_blank"><img src="img/stock.png" alt="diot" width="190 px"><p><h2>Total stock</h2></p></a>
+        <a href="dashboard" target="_blank"><img src="img/menu1.png" alt="diot" width="110 px"><p><h2>Menu</h2></p></a>
+    </div>
+    @include('layouts.components.footer')
+</div>
+</body>
+</html>
